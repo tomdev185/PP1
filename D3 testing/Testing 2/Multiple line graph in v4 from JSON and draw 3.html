@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style> /* set the CSS */
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 2px;
+}
+</style>
+<body>
+
+  <!-- load the d3.js library -->
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script>
+
+
+
+d3.json("Multiple line graph in v4 from JSON and draw 3.json", function(error, data) {
+
+  //console.log(data[0]);
+  //console.log(data.data.coinDataCache.BitcoinEssence);
+  //console.log(data.data.coinDataCache);
+  console.log(data.success);  // true
+  console.log(data.message); // null
+  console.log(data.messages); // null
+
+  console.log(data.data.coinDataCache); // all coins in list
+  console.log(data.data.coinDataCache.Bitcoinessence); // price data for
+  console.log(data.data.coinDataCache.Bitcoinessence.trade); // price data for
+
+ var trade_data = data.data.coinDataCache.Bitcoinessence.trade;
+
+var count = 0;
+ for(var k in trade_data) {
+   console.log("----------------------------------------------------------------------");
+    console.log(k, trade_data[k]);
+    var kk = trade_data[k];
+      count = count + 1;
+
+      console.log(Object.keys(kk)); // array of lastPrice and btcVol
+      console.log(Object.keys(kk)[0]); // lastPrice
+      console.log(Object.values(kk)[0]); // lastPrice value
+      console.log(Object.keys(kk)[1]); // btcVol
+      console.log(Object.values(kk)[1]); // btcVol value
+
+        console.log(k);
+
+      console.log(kk.constructor.name);
+
+      if (count > 0) {
+        break;
+      }
+
+ }
+
+  /*
+  var count = 0;
+  data.data.coinDataCache.forEach(function(d) {
+    console.log("hi");
+      count += 1;
+    //d.Letter = d.Letter;
+    //d.Freq = +d.Freq;
+  });
+  console.log(count);
+  */
+});
+
+</script>
+</body>
