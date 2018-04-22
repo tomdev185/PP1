@@ -101,7 +101,7 @@
     var margin = {top: 20, right: 20, bottom: 30, left: 100},
     width = 960 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
-     padding = 100;
+    padding = 100;
 
     // parse the date / time
     var parseTime = d3.timeParse("%d-%m-%Y %H:%M:%S %p");
@@ -118,7 +118,7 @@
     // define the line
     var valueline2 = d3.line()
     .x(function(d) { return x(d.date); })
-    .y(function(d) { return y(d.lastPrice); });
+    .y(function(d) { return y(d.btcVol); });
 
     // append the svg obgect to the body of the page
     // appends a 'group' element to 'svg'
@@ -140,6 +140,7 @@
         //d.date = parseTime(d.date);
         d.date = d.date;
         d.lastPrice = d.lastPrice;
+        d.btcVol = d.btcVol;
         //d.Exports = +d.Exports;
       });
 
@@ -150,8 +151,8 @@
 
 
       // define the x scale (horizontal)
-             var mindate = Date.parse("2018-04-19 00:13:50");
-                 maxdate = Date.parse("2018-04-19 23:55:55");
+      var mindate = Date.parse("2018-04-18 00:13:50");
+      maxdate = Date.parse("2018-04-19 23:55:55");
       // Scale the range of the data
 
 
@@ -180,13 +181,31 @@
         // Add the Y Axis
         svg.append("g")
         .call(d3.axisLeft(y));
+
+        var line = d3.line()
+        .x(function(d) { return x(d.date); })
+        .y(function(d) { return y(d.lastPrice); });
+
+        var line2 = d3.line()
+        .x(function(d) { return x(d.date); })
+        .y(function(d) { return y(d.btcVol); });
+
+
+        svg.append("path")
+        .datum(data)
+        .attr("fill", "none")
+        .attr("stroke", "steelblue")
+        .attr("stroke-linejoin", "round")
+        .attr("stroke-linecap", "round")
+        .attr("stroke-width", 1.5)
+        .attr("d", line);
       }
       // Get the data
       //d3.json("data.json", function(error, data) {
       //  if (error) throw error;
 
-        // trigger render
-        draw(data);
+      // trigger render
+      draw(data);
 
 
 
@@ -195,7 +214,7 @@
 
 
 
-      });
+    });
 
-      </script>
-      </body>
+    </script>
+  </body>
