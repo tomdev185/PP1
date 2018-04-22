@@ -18,11 +18,43 @@
 
 d3.json("Multiple line graph in v4 from JSON and draw 2.json", function(error, data) {
 
-  console.log(data[0]);
+  //console.log(data[0]);
   //console.log(data.data.coinDataCache.BitcoinEssence);
-  console.log(data.data.coinDataCache);
+  //console.log(data.data.coinDataCache);
+  console.log(data.success);  // true
+  console.log(data.message); // null
+  console.log(data.messages); // null
 
+  console.log(data.data.coinDataCache); // all coins in list
+  console.log(data.data.coinDataCache.Bitcoinessence); // price data for
+  console.log(data.data.coinDataCache.Bitcoinessence.trade); // price data for
 
+ var trade_data = data.data.coinDataCache.Bitcoinessence.trade;
+
+var count = 0;
+ for(var k in trade_data) {
+   console.log("----------------------------------------------------------------------");
+    console.log(k, trade_data[k]);
+    var kk = trade_data[k];
+      count = count + 1;
+
+      console.log(Object.keys(kk)); // array of lastPrice and btcVol
+      console.log(Object.keys(kk)[0]); // lastPrice
+      console.log(Object.values(kk)[0]); // lastPrice value
+      console.log(Object.keys(kk)[1]); // btcVol
+      console.log(Object.values(kk)[1]); // btcVol value
+
+        console.log(k);
+
+      console.log(kk.constructor.name);
+
+      if (count > 0) {
+        break;
+      }
+
+ }
+
+  /*
   var count = 0;
   data.data.coinDataCache.forEach(function(d) {
     console.log("hi");
@@ -31,7 +63,7 @@ d3.json("Multiple line graph in v4 from JSON and draw 2.json", function(error, d
     //d.Freq = +d.Freq;
   });
   console.log(count);
-
+  */
 });
 
 </script>
