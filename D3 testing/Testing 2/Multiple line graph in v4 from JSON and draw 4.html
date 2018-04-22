@@ -5,7 +5,7 @@
 .line {
   fill: none;
   stroke: steelblue;
-  stroke-width: 2px;
+  stroke-width: 5px;
 }
 </style>
 <body>
@@ -16,7 +16,7 @@
 
 
 
-  d3.json("Multiple line graph in v4 from JSON and draw 2.json", function(error, data) {
+  d3.json("Multiple line graph in v4 from JSON and draw 4.json", function(error, data) {
 
     //console.log(data[0]);
     //console.log(data.data.coinDataCache.BitcoinEssence);
@@ -113,8 +113,8 @@
 
     // define the line
     var valueline = d3.line()
-    .x(function(d) { return x(d.date); })
-    .y(function(d) { return y(d.lastPrice); });
+      .x(function(d) { return x(d.date); })
+      .y(function(d) { return y(d.lastPrice); });
     // define the line
     var valueline2 = d3.line()
     .x(function(d) { return x(d.date); })
@@ -160,8 +160,7 @@
       x.domain([mindate, maxdate]);
       //var xScale = d3.time.scale().domain([mindate, maxdate]).range([padding, width - padding * 2]);
 
-      y.domain([0, d3.max(data, function(d) {
-        return Math.max(d.lastPrice, d.lastPrice); })]);
+      y.domain([0, 0.00000001]);
 
         // Add the valueline path.
         svg.append("path")
@@ -169,10 +168,8 @@
         .attr("class", "line")
         .attr("d", valueline);
         // Add the valueline path.
-        svg.append("path")
-        .data([data])
-        .attr("class", "line")
-        .attr("d", valueline2);
+
+        //svg.append("path").data([data]).attr("class", "line").attr("d", valueline2);
         // Add the X Axis
         svg.append("g")
         .attr("transform", "translate(0," + height + ")")
@@ -181,6 +178,7 @@
         // Add the Y Axis
         svg.append("g")
         .call(d3.axisLeft(y));
+
 
         var line = d3.line()
         .x(function(d) { return x(d.date); })
@@ -197,8 +195,17 @@
         .attr("stroke", "steelblue")
         .attr("stroke-linejoin", "round")
         .attr("stroke-linecap", "round")
-        .attr("stroke-width", 1.5)
+        .attr("stroke-width", 5)
         .attr("d", line);
+
+
+        svg.append("path")
+        .data([data])
+        .attr("class", "line")
+        .attr("d", line);
+        // Add the valueline path.
+
+
       }
       // Get the data
       //d3.json("data.json", function(error, data) {
@@ -206,7 +213,6 @@
 
       // trigger render
       draw(data);
-
 
 
 

@@ -59,7 +59,7 @@
 
       console.log("kk  count =" +  count);
       if(count == 0) {
-        str1 = '{ "date":"' + k +  '", "'+ Object.keys(kk)[0] + '":"'  + Object.values(kk)[0] +   '", "'+ Object.keys(kk)[1] + '":"'  + Object.values(kk)[1] +'" }';
+        str1 = '{ "Date":"' + k +  '", "'+ Object.keys(kk)[0] + '":"'  + Object.values(kk)[0] +   '", "'+ Object.keys(kk)[1] + '":"'  + Object.values(kk)[1] +'" }';
 
         myObj2 = JSON.parse(str1);
         //console.log(myObj2);
@@ -69,7 +69,7 @@
 
       console.log("jj  count =" +  count);
       if(count > 0) {
-        str1 = '{ "date":"' + k +  '", "'+ Object.keys(kk)[0] + '":"'  + Object.values(kk)[0] +   '", "'+ Object.keys(kk)[1] + '":"'  + Object.values(kk)[1] +'" }';
+        str1 = '{ "Date":"' + k +  '", "'+ Object.keys(kk)[0] + '":"'  + Object.values(kk)[0] +   '", "'+ Object.keys(kk)[1] + '":"'  + Object.values(kk)[1] +'" }';
 
         myObj = JSON.parse(str1);
         //console.log(myObj);
@@ -113,11 +113,11 @@
 
     // define the line
     var valueline = d3.line()
-    .x(function(d) { return x(d.date); })
+    .x(function(d) { return x(d.Date); })
     .y(function(d) { return y(d.lastPrice); });
     // define the line
     var valueline2 = d3.line()
-    .x(function(d) { return x(d.date); })
+    .x(function(d) { return x(d.Date); })
     .y(function(d) { return y(d.btcVol); });
 
     // append the svg obgect to the body of the page
@@ -137,8 +137,8 @@
 
       // format the data
       data.forEach(function(d) {
-        //d.date = parseTime(d.date);
-        d.date = d.date;
+        d.Date = parseTime(d.Date);
+        //d.Date = d.Date;
         d.lastPrice = d.lastPrice;
         d.btcVol = d.btcVol;
         //d.Exports = +d.Exports;
@@ -146,51 +146,36 @@
 
       // sort years ascending
       data.sort(function(a, b){
-        return a["date"]-b["date"];
+        return a["Date"]-b["Date"];
       })
 
 
-      // define the x scale (horizontal)
-      var mindate = Date.parse("2018-04-18 00:13:50");
-      maxdate = Date.parse("2018-04-19 23:55:55");
       // Scale the range of the data
-
-
-      //x.domain(d3.extent(data, function(d) { return d.date; }));
-      x.domain([mindate, maxdate]);
-      //var xScale = d3.time.scale().domain([mindate, maxdate]).range([padding, width - padding * 2]);
-
-      y.domain([0, d3.max(data, function(d) {
-        return Math.max(d.lastPrice, d.lastPrice); })]);
+        x.domain(d3.extent(data, function(d) { return d.Date; }));
+        //y.domain([0, d3.max(data, function(d) {      	  return Math.max(d.Imports, d.Exports); })]);
 
         // Add the valueline path.
         svg.append("path")
-        .data([data])
-        .attr("class", "line")
-        .attr("d", valueline);
+            .data([data])
+            .attr("class", "line")
+            .attr("d", valueline);
         // Add the valueline path.
         svg.append("path")
-        .data([data])
-        .attr("class", "line")
-        .attr("d", valueline2);
+            .data([data])
+            .attr("class", "line")
+            .attr("d", valueline2);
         // Add the X Axis
         svg.append("g")
-        .attr("transform", "translate(0," + height + ")")
-        .call(d3.axisBottom(x));
+            .attr("transform", "translate(0," + height + ")")
+            .call(d3.axisBottom(x));
 
         // Add the Y Axis
         svg.append("g")
-        .call(d3.axisLeft(y));
-
-        var line = d3.line()
-        .x(function(d) { return x(d.date); })
-        .y(function(d) { return y(d.lastPrice); });
-
-        var line2 = d3.line()
-        .x(function(d) { return x(d.date); })
-        .y(function(d) { return y(d.btcVol); });
+            .call(d3.axisLeft(y));
 
 
+
+        /*
         svg.append("path")
         .datum(data)
         .attr("fill", "none")
@@ -199,6 +184,7 @@
         .attr("stroke-linecap", "round")
         .attr("stroke-width", 1.5)
         .attr("d", line);
+        */
       }
       // Get the data
       //d3.json("data.json", function(error, data) {
