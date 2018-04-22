@@ -101,22 +101,24 @@
     var margin = {top: 20, right: 20, bottom: 30, left: 100},
     width = 960 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
+     padding = 100;
 
     // parse the date / time
     var parseTime = d3.timeParse("%d-%m-%Y %H:%M:%S %p");
 
     // set the ranges
     var x = d3.scaleTime().range([0, width]);
+
     var y = d3.scaleLinear().range([height, 0]);
 
     // define the line
     var valueline = d3.line()
-    .x(function(d) { return x(d.Date); })
-    .y(function(d) { return y(d.Imports); });
+    .x(function(d) { return x(d.date); })
+    .y(function(d) { return y(d.lastPrice); });
     // define the line
     var valueline2 = d3.line()
-    .x(function(d) { return x(d.Date); })
-    .y(function(d) { return y(d.Exports); });
+    .x(function(d) { return x(d.date); })
+    .y(function(d) { return y(d.lastPrice); });
 
     // append the svg obgect to the body of the page
     // appends a 'group' element to 'svg'
@@ -135,7 +137,8 @@
 
       // format the data
       data.forEach(function(d) {
-        d.date = parseTime(d.date);
+        //d.date = parseTime(d.date);
+        d.date = d.date;
         d.lastPrice = d.lastPrice;
         //d.Exports = +d.Exports;
       });
@@ -145,8 +148,17 @@
         return a["date"]-b["date"];
       })
 
+
+      // define the x scale (horizontal)
+             var mindate = Date.parse("2018-04-19 00:13:50");
+                 maxdate = Date.parse("2018-04-19 23:55:55");
       // Scale the range of the data
-      x.domain(d3.extent(data, function(d) { return d.date; }));
+
+
+      //x.domain(d3.extent(data, function(d) { return d.date; }));
+      x.domain([mindate, maxdate]);
+      //var xScale = d3.time.scale().domain([mindate, maxdate]).range([padding, width - padding * 2]);
+
       y.domain([0, d3.max(data, function(d) {
         return Math.max(d.lastPrice, d.lastPrice); })]);
 
