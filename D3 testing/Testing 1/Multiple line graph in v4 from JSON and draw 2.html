@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style> /* set the CSS */
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 2px;
+}
+</style>
+<body>
+
+  <!-- load the d3.js library -->
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script>
+
+
+
+d3.json("Multiple line graph in v4 from JSON and draw 2.json", function(error, data) {
+
+  console.log(data[0]);
+  //console.log(data.data.coinDataCache.BitcoinEssence);
+  console.log(data.data.coinDataCache);
+
+
+  var count = 0;
+  data.data.coinDataCache.forEach(function(d) {
+    console.log("hi");
+      count += 1;
+    //d.Letter = d.Letter;
+    //d.Freq = +d.Freq;
+  });
+  console.log(count);
+
+});
+
+</script>
+</body>
