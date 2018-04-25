@@ -263,8 +263,8 @@
           else break;
         }
 
-        //d3.select(this).select('text').text(y.invert(pos.y).toFixed(8));
-        d3.select(this).select('text').text(y.invert(pos.y).toFixed(8));
+        d3.select(this).select('text')
+        .text(y.invert(pos.y).toFixed(8));
 
         return "translate(" + mouse[0] + "," + pos.y + ")";
       });
