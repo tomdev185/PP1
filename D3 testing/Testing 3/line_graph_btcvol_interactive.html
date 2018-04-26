@@ -246,9 +246,15 @@
         var lines = document.getElementsByClassName('line');
         var color = d3.scaleOrdinal(d3.schemeCategory10);
 
+        /*
         var beginning = 0,
         //end = lines[i].getTotalLength(),
         end = lines[0].getTotalLength(),
+        target = null;
+        */
+        var beginning = lines[0].getTotalLength(),
+        //end = lines[i].getTotalLength(),
+        end = 0,
         target = null;
 
         while (true) {

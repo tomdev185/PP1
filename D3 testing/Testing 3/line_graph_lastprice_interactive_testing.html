@@ -244,13 +244,19 @@
         var lines = document.getElementsByClassName('line');
         var color = d3.scaleOrdinal(d3.schemeCategory10);
 
-        var beginning = 0,
+        //var beginning = 0,
         //end = lines[i].getTotalLength(),
-        end = lines[0].getTotalLength(),
+        //end = lines[0].getTotalLength(),
+
+        var beginning = lines[0].getTotalLength(),
+        //end = lines[i].getTotalLength(),
+        end = 0,
+
         target = null;
 
         while (true) {
           target = Math.floor((beginning + end) / 2);
+          console.log("target=" +  target);
           //pos = lines[i].getPointAtLength(target);
           pos = lines[0].getPointAtLength(target);
           if ((target === end || target === beginning) && pos.x !== mouse[0]) {
