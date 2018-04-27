@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style> /* set the CSS */
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 2px;
+}
+
+</style>
+<body>
+
+  <!-- load the d3.js library -->
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+
+  <script>
+
+  // set the dimensions and margins of the graph
+  var margin = {top: 20, right: 20, bottom: 30, left: 80},
+  width = 960 - margin.left - margin.right,
+  height = 500 - margin.top - margin.bottom;
+
+  // parse the date / time
+  var parseTime = d3.timeParse("%Y-%m-%d %H:%M:%S");
+
+  // set the ranges
+  var x = d3.scaleTime().range([0, width]);
+  //var y = d3.scaleLinear().range([height, 0]);
+  var y = d3.scaleLinear().range([height, 0]);
+
+  // define the line
+  var valueline = d3.line()
+  .x(function(d) { return x(d.Date); })
+  .y(function(d) { return y(d.lastPrice); });
+
+  // append the svg obgect to the body of the page
+  // appends a 'group' element to 'svg'
+  // moves the 'group' element to the top left margin
+  var svg = d3.select("body").append("svg")
+  .attr("width", width + margin.left + margin.right)
+  .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+  .attr("transform",
+  "translate(" + margin.left + "," + margin.top + ")");
+
+  // Get the data
+
+  data = {"success":true,"message":null,"messages":null,"data":{"coinDataCache":{"Litecoin":{"lastprice":"0.017147996629","btcvol":"3542.969262117620","premine":"2100.00000000","genesis":"2386","mnCollateral":null,"blockHeight":"72704","moneySupply":"56153908.23239020","difficulty":"0.58522276","blockvalue":"0.00000000","mnCount":null,"netStakeweight":null,"netmhashps":null},"Bulwark":{"lastprice":"0.000171956059","btcvol":"7.405865066604","premine":"515694.99846560","genesis":"139","mnCollateral":"5000.00000000","blockHeight":"95100","moneySupply":"5166376.89880036","difficulty":"291.07463826","blockvalue":"0.00000000","mnCount":"592","netStakeweight":null,"netmhashps":"262933465.50500000"},"Magnet":{"lastprice":"0.000011400899","btcvol":"0.932685990000","premine":"449600.00140000","genesis":"179","mnCollateral":"10000.00000000","blockHeight":"206801","moneySupply":"0.00000000","difficulty":"970600.12461169","blockvalue":"200.00000000","mnCount":"1471","netStakeweight":"30923644717690.00000000","netmhashps":"16449536.94175100"},"Numus":{"lastprice":"0.000072685024","btcvol":"0.640846830000","premine":"506320.00000000","genesis":"125","mnCollateral":"5000.00000000","blockHeight":"259890","moneySupply":"2744984.85000000","difficulty":"16627.24980159","blockvalue":"4.00000000","mnCount":"204","netStakeweight":"24588670933426.00000000","netmhashps":null},"Rover":{"lastprice":"0.000013118180","btcvol":"0.339742599488","premine":"3012067.00000000","genesis":"43","mnCollateral":"10000.00000000","blockHeight":"77635","moneySupply":"4356135.00000000","difficulty":"33909.97473471","blockvalue":"32.00000000","mnCount":"124","netStakeweight":"27779017931799.00000000","netmhashps":"1921866.87073960"},"Lizus":{"lastprice":"0.000004193586","btcvol":"0.097469207611","premine":"1136875.00000000","genesis":"104","mnCollateral":"10000.00000000","blockHeight":"188556","moneySupply":"4430542.59955087","difficulty":"5186.22131362","blockvalue":"10.19999999","mnCount":"146","netStakeweight":"157858599384595.00000000","netmhashps":"122477.98825257"},"Viog":{"lastprice":"0.000002020000","btcvol":"0.004766180000","premine":"404995.06049260","genesis":"154","mnCollateral":"1000.00000000","blockHeight":"81582","moneySupply":"807935.00000000","difficulty":"1.77982673","blockvalue":"0.00000000","mnCount":"224","netStakeweight":null,"netmhashps":"51659.10280897"},"Earnzcoin":{"lastprice":"0.000001079905","btcvol":"0.001073778500","premine":"10001060.20000000","genesis":"173","mnCollateral":"8000.00000000","blockHeight":"63301","moneySupply":"10925319.60000000","difficulty":"580418.78536440","blockvalue":"40.00001000","mnCount":"80","netStakeweight":"93850499895947.00000000","netmhashps":"14984.23269006"},"Bitcoinessence":{"lastprice":"0.000000010000","btcvol":"0.000000000000","premine":"620165500.00000000","genesis":"40","mnCollateral":null,"blockHeight":"215911","moneySupply":"642997000.00000000","difficulty":"20.67691580","blockvalue":"0.00000000","mnCount":null,"netStakeweight":null,"netmhashps":null,"trade":{"2018-04-19 00:33:53":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-19 00:33:50":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-19 00:32:29":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-19 00:23:53":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-19 00:23:50":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-19 00:22:29":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-19 00:13:52":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-19 00:13:50":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-19 00:12:29":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-19 00:03:52":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-19 00:03:50":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-19 00:02:29":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 23:53:52":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 23:53:50":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 23:52:29":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 23:43:51":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 23:43:50":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 23:42:29":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 23:33:51":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 23:33:50":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 23:32:29":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 23:23:50":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 23:22:29":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 23:13:50":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 23:13:49":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 23:12:29":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 23:03:50":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 23:03:49":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 23:02:29":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 22:53:50":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 22:53:48":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 22:52:29":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 22:43:50":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 22:43:48":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 22:42:29":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 22:33:50":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 22:33:47":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 22:32:29":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 22:23:50":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 22:23:46":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 22:22:29":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 22:13:50":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 22:13:46":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 22:12:29":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 22:03:50":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 22:03:46":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 22:02:29":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 21:53:50":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 21:53:45":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 21:52:35":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 21:52:29":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 21:43:50":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 21:43:45":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 21:42:35":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 21:42:29":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 21:33:50":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 21:33:44":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 21:32:34":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 21:32:29":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 21:23:50":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 21:23:44":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 21:22:34":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 21:22:29":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 21:13:50":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 21:13:44":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 21:12:34":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 21:12:29":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 21:03:50":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 21:03:44":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 21:02:34":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 21:02:29":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 20:53:50":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 20:53:43":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 20:52:33":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 20:52:28":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 20:43:50":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 20:43:43":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 20:42:33":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 20:42:28":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 20:33:50":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 20:33:42":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 20:32:33":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 20:32:28":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 20:23:50":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 20:23:42":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 20:22:32":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 20:22:28":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 20:13:50":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 20:13:41":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 20:12:32":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 20:12:28":{"lastPrice":"0.000000010000","btcVol":"0.000000000000"},"2018-04-18 20:03:50":{"lastPrice":"0.000000010000","btcVol":"0.000005010000"},"2018-04-18 20:03:41":{"lastPrice":"0.000000010000","btcVol":"0.000005010000"},"2018-04-18 20:02:32":{"lastPrice":"0.000000010000","btcVol":"0.000005010000"},"2018-04-18 20:02:28":{"lastPrice":"0.000000010000","btcVol":"0.000005010000"},"2018-04-18 19:53:50":{"lastPrice":"0.000000010000","btcVol":"0.000005010000"},"2018-04-18 19:53:40":{"lastPrice":"0.000000010000","btcVol":"0.000005010000"},"2018-04-18 19:52:31":{"lastPrice":"0.000000010000","btcVol":"0.000005010000"},"2018-04-18 19:52:28":{"lastPrice":"0.000000010000","btcVol":"0.000005010000"}}},"BitcoinEssence":{"websites":{"discord":{"link":"https:\/\/discord.gg\/aahw2"},"github":{"link":"https:\/\/github.com\/BitcoinEssence\/bitcoinessence\/releases"},"twitter":{"link":"https:\/\/twitter.com\/BitcoinEssence"},"website":{"link":"https:\/\/www.bitcoinessence.org\/"}}}},"fiatData":{"fiatList":{"USD":"United States Dollar","CHF":"Swiss Franc","PLN":"Polish Zloty","BRL":"Brazilian Real","TRY":"Turkish Lira","HKD":"Hong Kong Dollar","ISK":"Icelandic Krona","RUB":"Russian Ruble","EUR":"Euro","ZAR":"South African Rand","PHP":"Philippine Piso","IDR":"Indonesian Rupiah","AUD":"Australian Dollar","CNY":"Chinese Yuan","NZD":"New Zealand Dollar","NOK":"Norwegian Krone","ILS":"Israeli Shekel","CZK":"Czech Koruna ","SEK":"Swedish krona","GBP":"Pound Sterling","SGD":"Singapore Dollar","INR":"Indian Rupee","BGN":"Bulgarian Lev","JPY":"Japanese Yen","MYR":"Malaysian Ringgit","DKK":"Danish Krone","KRW":"South Korean Won","THB":"Thai Baht","HRK":"Croatian Kuna","HUF":"Hungarian Forint","CAD":"Canadian Dollar","MXN":"Mexican Peso","RON":"Romanian Leu"},"fiatBalances":{"USD":8176.3038,"CHF":7906.322248524,"PLN":27520.62096042,"BRL":27752.01035796,"TRY":33469.6996053,"HKD":64183.16719962,"ISK":813803.8698216,"RUB":502834.5073962,"EUR":6600.157716474,"ZAR":97804.9460556,"PHP":425437.6156254,"IDR":112571350.7184,"AUD":10529.44403364,"CNY":51366.81099312,"NZD":11162.28994776,"NOK":63424.40620698,"ILS":28754.42520384,"CZK":167001.005115,"SEK":68661.32879088,"GBP":5749.086253932,"SGD":10715.86376028,"INR":536896.989027,"BGN":12908.74843944,"JPY":876663.293436,"MYR":31793.5573263,"DKK":49156.75607598,"KRW":8709398.80776,"THB":255345.967674,"HRK":48958.88952402,"HUF":2047101.182406,"CAD":10277.6138766,"MXN":146969.060805,"RON":30716.73811584}}}};
+
+
+
+
+
+  //d3.json("mydata.json", function(error, data) {
+
+    /*Andy custom mod starts*/
+    console.log(data.success);  // true
+    console.log(data.message); // null
+    console.log(data.messages); // null
+
+    console.log(data.data.coinDataCache); // all coins in list
+    console.log(data.data.coinDataCache.Bitcoinessence); // price data for
+    console.log(data.data.coinDataCache.Bitcoinessence.trade); // price data for
+
+    var trade_data = data.data.coinDataCache.Bitcoinessence.trade;
+
+    var count = 0;
+    var finaljson;
+    var str1;
+    var myObj;
+    var myObj2;
+    var arr= []; // empty arrary
+
+    for(var k in trade_data) {
+      console.log("----------------------------------------------------------------------");
+      console.log("start count =" +  count);
+      console.log(k, trade_data[k]);
+      var kk = trade_data[k];
+
+
+      console.log(Object.keys(kk)); // array of lastPrice and btcVol
+      console.log(Object.keys(kk)[0]); // lastPrice
+      console.log(Object.values(kk)[0]); // lastPrice value
+      console.log(Object.keys(kk)[1]); // btcVol
+      console.log(Object.values(kk)[1]); // btcVol value
+
+      console.log(k);
+
+      console.log(kk.constructor.name);
+
+      console.log("kk  count =" +  count);
+
+      var a1 = parseFloat(Object.values(kk)[0]);
+      a1 = a1.toFixed(8);
+      Object.values(kk)[0] = a1;
+
+      console.log("After setting decimal to 8 places only=" + a1);
+
+      if(count == 0) {
+        str1 = '{ "Date":"' + k +  '", "'+ Object.keys(kk)[0] + '":"'  + Object.values(kk)[0] +   '", "'+ Object.keys(kk)[1] + '":"'  + Object.values(kk)[1] +'" }';
+
+        myObj2 = JSON.parse(str1);
+        //console.log(myObj2);
+        arr.push(myObj2);
+
+      }
+
+
+
+
+      console.log("jj  count =" +  count);
+      if(count > 0) {
+        str1 = '{ "Date":"' + k +  '", "'+ Object.keys(kk)[0] + '":"'  + Object.values(kk)[0] +   '", "'+ Object.keys(kk)[1] + '":"'  + Object.values(kk)[1] +'" }';
+
+        myObj = JSON.parse(str1);
+        //console.log(myObj);
+        arr.push(myObj);
+
+        //myObj2.concat(myObj);
+
+      }
+
+
+
+      //console.log(str1);
+      console.log("count =" +  count);
+
+      count = count + 1;
+      if (count > 0) {
+        //break;
+      }
+      console.log("count =" +  count);
+
+    }
+
+
+    console.log("----------------------------------------------------------------------");
+    //console.log(arr);
+
+    data = arr;
+
+
+
+
+    /* Andy custom mod ends*/
+
+    //if (error) throw error;
+
+    // format the data
+    data.forEach(function(d) {
+      d.Date = parseTime(d.Date);
+      //d.lastPrice = d.lastPrice;
+      d.lastPrice = parseFloat(d.lastPrice).toFixed(10);
+    });
+
+    // sort years ascending
+    data.sort(function(a, b){
+      return a["Date"]-b["Date"];
+    })
+
+    // Scale the range of the data
+    x.domain(d3.extent(data, function(d) { return d.Date; }));
+    y.domain([0, d3.max(data, function(d) { return d.lastPrice*1.4; })]);
+
+    // Add the valueline path.
+    svg.append("path")
+    .data([data])
+    .attr("class", "line")
+    .attr("d", valueline);
+
+    // Add the X Axis
+    svg.append("g")
+    .attr("transform", "translate(0," + height + ")")
+    .call(d3.axisBottom(x));
+
+    // Add the Y Axis
+    svg.append("g")
+    .call(d3.axisLeft(y).ticks(5));
+
+
+    /*  */
+    var lines = document.getElementsByClassName('line');
+
+    var color = d3.scaleOrdinal(d3.schemeCategory10);
+
+    var mouseG = svg.append("g")
+    .attr("class", "mouse-over-effects");
+
+    mouseG.append("path") // this is the black vertical line to follow mouse
+    .attr("class", "mouse-line")
+    .style("stroke", "black")
+    .style("stroke-width", "1px")
+    .style("opacity", "0");
+
+
+
+    var mousePerLine = mouseG.selectAll('.mouse-per-line')
+    .data(data)
+    .enter()
+    .append("g")
+    .attr("class", "mouse-per-line");
+
+
+
+    mousePerLine.append("circle")
+    .attr("r", 7)
+    .style("stroke", function(d) {
+      return color(d.name);
+    })
+    .style("fill", "none")
+    .style("stroke-width", "1px")
+    .style("opacity", "0");
+
+    mousePerLine.append("text")
+    .attr("transform", "translate(10,3)");
+
+    mouseG.append('svg:rect') // append a rect to catch mouse movements on canvas
+    .attr('width', width) // can't catch mouse events on a g element
+    .attr('height', height)
+    .attr('fill', 'none')
+    .attr('pointer-events', 'all')
+    .on('mouseout', function() { // on mouse out hide line, circles and text
+      d3.select(".mouse-line")
+      .style("opacity", "0");
+      d3.selectAll(".mouse-per-line circle")
+      .style("opacity", "0");
+      d3.selectAll(".mouse-per-line text")
+      .style("opacity", "0");
+    })
+    .on('mouseover', function() { // on mouse in show line, circles and text
+      d3.select(".mouse-line")
+      .style("opacity", "1");
+      d3.selectAll(".mouse-per-line circle")
+      .style("opacity", "1");
+      d3.selectAll(".mouse-per-line text")
+      .style("opacity", "1");
+    })
+    .on('mousemove', function() { // mouse moving over canvas
+      var mouse = d3.mouse(this);
+      d3.select(".mouse-line")
+      .attr("d", function() {
+        var d = "M" + mouse[0] + "," + height;
+        d += " " + mouse[0] + "," + 0;
+        return d;
+      });
+      d3.selectAll(".mouse-per-line")
+      .attr("transform", function(d, i) {
+
+
+        var lines = document.getElementsByClassName('line');
+        var color = d3.scaleOrdinal(d3.schemeCategory10);
+
+        /*
+        var beginning = 0,
+        //end = lines[i].getTotalLength(),
+        end = lines[0].getTotalLength(),
+        target = null;
+        */
+        var beginning = lines[0].getTotalLength(),
+        end = 0,
+        target = null;
+
+        while (true) {
+          target = Math.floor((beginning + end) / 2);
+          //pos = lines[i].getPointAtLength(target);
+          pos = lines[0].getPointAtLength(target);
+          if ((target === end || target === beginning) && pos.x !== mouse[0]) {
+            break;
+          }
+          if (pos.x > mouse[0]) beginning = target;
+          else if (pos.x < mouse[0]) end = target;
+          else break;
+        }
+
+        d3.select(this).select('text')
+        .text(y.invert(pos.y).toFixed(8));
+
+        return "translate(" + mouse[0] + "," + pos.y + ")";
+      });
+    });
+
+  //}); //d3.json("mydata.json", function(error, data) {
+
+
+
+
+  </script>
+</body>
