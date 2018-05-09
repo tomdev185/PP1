@@ -5220,12 +5220,14 @@
 
                      function getData_general() {
                        d3.json("general_data_formatted.dat", function(error, data) {
+                         d3.select("svg").remove();
                          chartData2(data)
                        });
                      }
 
                      function getData_masternodes() {
                        d3.json("masternodes_data_formatted.dat", function(error, data) {
+                         d3.select("svg").remove();
                          chartData2(data)
                        });
                      }
