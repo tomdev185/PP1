@@ -1,0 +1,2955 @@
+{
+   "success":true,
+   "message":null,
+   "messages":null,
+   "data":{
+      "coinDataCache":{
+         "Litecoin":{
+            "lastprice":"0.016904894208",
+            "btcvol":"7464.238904222800"
+         },
+         "Bulwark":{
+            "lastprice":"0.000148268439",
+            "btcvol":"5.300250226233"
+         },
+         "Magnet":{
+            "lastprice":"0.000009849667",
+            "btcvol":"1.108496442500"
+         },
+         "Numus":{
+            "lastprice":"0.000049216961",
+            "btcvol":"0.613701990000"
+         },
+         "Lizus":{
+            "lastprice":"0.000004736395",
+            "btcvol":"0.291482590433",
+            "stakeHistory":[
+               {
+                  "datetime":"2018-05-08 10:30:16",
+                  "netstakeweight":"153855317870320"
+               },
+               {
+                  "datetime":"2018-05-08 10:32:18",
+                  "netstakeweight":"151882360898603"
+               },
+               {
+                  "datetime":"2018-05-08 10:34:20",
+                  "netstakeweight":"141796293613569"
+               },
+               {
+                  "datetime":"2018-05-08 10:36:21",
+                  "netstakeweight":"144903720186865"
+               },
+               {
+                  "datetime":"2018-05-08 10:38:23",
+                  "netstakeweight":"142137289426568"
+               },
+               {
+                  "datetime":"2018-05-08 10:40:25",
+                  "netstakeweight":"142376163751382"
+               },
+               {
+                  "datetime":"2018-05-08 10:42:27",
+                  "netstakeweight":"142376163751382"
+               },
+               {
+                  "datetime":"2018-05-08 10:44:29",
+                  "netstakeweight":"144163744515123"
+               },
+               {
+                  "datetime":"2018-05-08 10:46:30",
+                  "netstakeweight":"144163744515123"
+               },
+               {
+                  "datetime":"2018-05-08 10:48:32",
+                  "netstakeweight":"139262978417597"
+               },
+               {
+                  "datetime":"2018-05-08 10:50:34",
+                  "netstakeweight":"139138059438519"
+               },
+               {
+                  "datetime":"2018-05-08 10:52:36",
+                  "netstakeweight":"136799415778694"
+               },
+               {
+                  "datetime":"2018-05-08 10:54:38",
+                  "netstakeweight":"137586353132793"
+               },
+               {
+                  "datetime":"2018-05-08 10:56:40",
+                  "netstakeweight":"138101991990077"
+               },
+               {
+                  "datetime":"2018-05-08 10:58:41",
+                  "netstakeweight":"135442554550428"
+               },
+               {
+                  "datetime":"2018-05-08 11:00:43",
+                  "netstakeweight":"128462910701051"
+               },
+               {
+                  "datetime":"2018-05-08 11:02:45",
+                  "netstakeweight":"130547205741040"
+               },
+               {
+                  "datetime":"2018-05-08 11:04:47",
+                  "netstakeweight":"130547205741040"
+               },
+               {
+                  "datetime":"2018-05-08 11:06:49",
+                  "netstakeweight":"125097330733429"
+               },
+               {
+                  "datetime":"2018-05-08 11:08:51",
+                  "netstakeweight":"128715609475463"
+               },
+               {
+                  "datetime":"2018-05-08 11:10:52",
+                  "netstakeweight":"134207615670934"
+               },
+               {
+                  "datetime":"2018-05-08 11:12:54",
+                  "netstakeweight":"135639943125729"
+               },
+               {
+                  "datetime":"2018-05-08 11:14:56",
+                  "netstakeweight":"135639943125729"
+               },
+               {
+                  "datetime":"2018-05-08 11:16:58",
+                  "netstakeweight":"134933325214032"
+               },
+               {
+                  "datetime":"2018-05-08 11:19:00",
+                  "netstakeweight":"137774117272323"
+               },
+               {
+                  "datetime":"2018-05-08 11:21:01",
+                  "netstakeweight":"145999056778997"
+               },
+               {
+                  "datetime":"2018-05-08 11:23:03",
+                  "netstakeweight":"152852529147347"
+               },
+               {
+                  "datetime":"2018-05-08 11:25:05",
+                  "netstakeweight":"152852529147347"
+               },
+               {
+                  "datetime":"2018-05-08 11:27:07",
+                  "netstakeweight":"152852529147347"
+               },
+               {
+                  "datetime":"2018-05-08 11:29:09",
+                  "netstakeweight":"152852529147347"
+               },
+               {
+                  "datetime":"2018-05-08 11:31:11",
+                  "netstakeweight":"152852529147347"
+               },
+               {
+                  "datetime":"2018-05-08 11:33:12",
+                  "netstakeweight":"152852529147347"
+               },
+               {
+                  "datetime":"2018-05-08 11:35:14",
+                  "netstakeweight":"152852529147347"
+               },
+               {
+                  "datetime":"2018-05-08 11:37:16",
+                  "netstakeweight":"152852529147347"
+               },
+               {
+                  "datetime":"2018-05-08 11:39:18",
+                  "netstakeweight":"152852529147347"
+               },
+               {
+                  "datetime":"2018-05-08 11:41:20",
+                  "netstakeweight":"152852529147347"
+               },
+               {
+                  "datetime":"2018-05-08 11:43:21",
+                  "netstakeweight":"152852529147347"
+               },
+               {
+                  "datetime":"2018-05-08 11:45:23",
+                  "netstakeweight":"152852529147347"
+               },
+               {
+                  "datetime":"2018-05-08 11:47:25",
+                  "netstakeweight":"152852529147347"
+               },
+               {
+                  "datetime":"2018-05-08 11:49:27",
+                  "netstakeweight":"152852529147347"
+               },
+               {
+                  "datetime":"2018-05-08 11:51:29",
+                  "netstakeweight":"152852529147347"
+               },
+               {
+                  "datetime":"2018-05-08 11:53:31",
+                  "netstakeweight":"124713934892109"
+               },
+               {
+                  "datetime":"2018-05-08 11:55:32",
+                  "netstakeweight":"126498468354266"
+               },
+               {
+                  "datetime":"2018-05-08 11:57:34",
+                  "netstakeweight":"128870881038559"
+               },
+               {
+                  "datetime":"2018-05-08 11:59:36",
+                  "netstakeweight":"133227964819255"
+               },
+               {
+                  "datetime":"2018-05-08 12:01:38",
+                  "netstakeweight":"136381339415618"
+               },
+               {
+                  "datetime":"2018-05-08 12:03:40",
+                  "netstakeweight":"136381339415618"
+               },
+               {
+                  "datetime":"2018-05-08 12:05:42",
+                  "netstakeweight":"136381339415618"
+               },
+               {
+                  "datetime":"2018-05-08 12:07:43",
+                  "netstakeweight":"136381339415618"
+               },
+               {
+                  "datetime":"2018-05-08 12:09:45",
+                  "netstakeweight":"137390273259694"
+               },
+               {
+                  "datetime":"2018-05-08 12:11:47",
+                  "netstakeweight":"137427227532161"
+               },
+               {
+                  "datetime":"2018-05-08 12:13:49",
+                  "netstakeweight":"139053571470254"
+               },
+               {
+                  "datetime":"2018-05-08 12:15:51",
+                  "netstakeweight":"134860046004233"
+               },
+               {
+                  "datetime":"2018-05-08 12:17:52",
+                  "netstakeweight":"134161436071562"
+               },
+               {
+                  "datetime":"2018-05-08 12:19:54",
+                  "netstakeweight":"132446579487886"
+               },
+               {
+                  "datetime":"2018-05-08 12:21:56",
+                  "netstakeweight":"133674693408828"
+               },
+               {
+                  "datetime":"2018-05-08 12:23:58",
+                  "netstakeweight":"133674693408828"
+               },
+               {
+                  "datetime":"2018-05-08 12:26:00",
+                  "netstakeweight":"132547808173426"
+               },
+               {
+                  "datetime":"2018-05-08 12:28:02",
+                  "netstakeweight":"135475227986741"
+               },
+               {
+                  "datetime":"2018-05-08 12:30:03",
+                  "netstakeweight":"135670209488648"
+               },
+               {
+                  "datetime":"2018-05-08 12:32:05",
+                  "netstakeweight":"135818911349595"
+               },
+               {
+                  "datetime":"2018-05-08 12:34:07",
+                  "netstakeweight":"133129613796327"
+               },
+               {
+                  "datetime":"2018-05-08 12:36:09",
+                  "netstakeweight":"134695831672682"
+               },
+               {
+                  "datetime":"2018-05-08 12:38:11",
+                  "netstakeweight":"133294053926096"
+               },
+               {
+                  "datetime":"2018-05-08 12:40:12",
+                  "netstakeweight":"137757803312875"
+               },
+               {
+                  "datetime":"2018-05-08 12:42:14",
+                  "netstakeweight":"139314696618275"
+               },
+               {
+                  "datetime":"2018-05-08 12:44:16",
+                  "netstakeweight":"140056561110661"
+               },
+               {
+                  "datetime":"2018-05-08 12:46:18",
+                  "netstakeweight":"143242043098584"
+               },
+               {
+                  "datetime":"2018-05-08 12:48:20",
+                  "netstakeweight":"143836340078044"
+               },
+               {
+                  "datetime":"2018-05-08 12:50:22",
+                  "netstakeweight":"149763061176548"
+               },
+               {
+                  "datetime":"2018-05-08 12:52:23",
+                  "netstakeweight":"149763061176548"
+               },
+               {
+                  "datetime":"2018-05-08 12:54:25",
+                  "netstakeweight":"149763061176548"
+               },
+               {
+                  "datetime":"2018-05-08 12:56:27",
+                  "netstakeweight":"149763061176548"
+               },
+               {
+                  "datetime":"2018-05-08 12:58:29",
+                  "netstakeweight":"149763061176548"
+               },
+               {
+                  "datetime":"2018-05-08 13:00:31",
+                  "netstakeweight":"149763061176548"
+               },
+               {
+                  "datetime":"2018-05-08 13:02:33",
+                  "netstakeweight":"149763061176548"
+               },
+               {
+                  "datetime":"2018-05-08 13:04:34",
+                  "netstakeweight":"149763061176548"
+               },
+               {
+                  "datetime":"2018-05-08 13:06:36",
+                  "netstakeweight":"135998999305244"
+               },
+               {
+                  "datetime":"2018-05-08 13:08:38",
+                  "netstakeweight":"136461708829814"
+               },
+               {
+                  "datetime":"2018-05-08 13:10:40",
+                  "netstakeweight":"134945276107287"
+               },
+               {
+                  "datetime":"2018-05-08 13:12:42",
+                  "netstakeweight":"135414063881135"
+               },
+               {
+                  "datetime":"2018-05-08 13:14:43",
+                  "netstakeweight":"133310161563500"
+               },
+               {
+                  "datetime":"2018-05-08 13:16:45",
+                  "netstakeweight":"133430172926123"
+               },
+               {
+                  "datetime":"2018-05-08 13:18:47",
+                  "netstakeweight":"133430172926123"
+               },
+               {
+                  "datetime":"2018-05-08 13:20:49",
+                  "netstakeweight":"133348577831704"
+               },
+               {
+                  "datetime":"2018-05-08 13:22:51",
+                  "netstakeweight":"133348577831704"
+               },
+               {
+                  "datetime":"2018-05-08 13:24:53",
+                  "netstakeweight":"133348577831704"
+               },
+               {
+                  "datetime":"2018-05-08 13:26:54",
+                  "netstakeweight":"133348577831704"
+               },
+               {
+                  "datetime":"2018-05-08 13:28:56",
+                  "netstakeweight":"133348577831704"
+               },
+               {
+                  "datetime":"2018-05-08 13:30:58",
+                  "netstakeweight":"128481653274459"
+               },
+               {
+                  "datetime":"2018-05-08 13:33:00",
+                  "netstakeweight":"146123368292649"
+               },
+               {
+                  "datetime":"2018-05-08 13:35:02",
+                  "netstakeweight":"147802015344346"
+               },
+               {
+                  "datetime":"2018-05-08 13:37:04",
+                  "netstakeweight":"148769394322867"
+               },
+               {
+                  "datetime":"2018-05-08 13:39:05",
+                  "netstakeweight":"147567782459598"
+               },
+               {
+                  "datetime":"2018-05-08 13:41:07",
+                  "netstakeweight":"143465438973416"
+               },
+               {
+                  "datetime":"2018-05-08 13:43:09",
+                  "netstakeweight":"143136099679210"
+               },
+               {
+                  "datetime":"2018-05-08 13:45:11",
+                  "netstakeweight":"141963767779157"
+               },
+               {
+                  "datetime":"2018-05-08 13:47:13",
+                  "netstakeweight":"141963767779157"
+               },
+               {
+                  "datetime":"2018-05-08 13:49:14",
+                  "netstakeweight":"142314094667533"
+               },
+               {
+                  "datetime":"2018-05-08 13:51:16",
+                  "netstakeweight":"138018575185842"
+               },
+               {
+                  "datetime":"2018-05-08 13:53:18",
+                  "netstakeweight":"134095292213299"
+               },
+               {
+                  "datetime":"2018-05-08 13:55:20",
+                  "netstakeweight":"140525398861876"
+               },
+               {
+                  "datetime":"2018-05-08 13:57:22",
+                  "netstakeweight":"145418654512381"
+               },
+               {
+                  "datetime":"2018-05-08 13:59:24",
+                  "netstakeweight":"146303414501710"
+               },
+               {
+                  "datetime":"2018-05-08 14:01:25",
+                  "netstakeweight":"147349900127197"
+               },
+               {
+                  "datetime":"2018-05-08 14:03:27",
+                  "netstakeweight":"147349900127197"
+               },
+               {
+                  "datetime":"2018-05-08 14:05:29",
+                  "netstakeweight":"145155646956130"
+               },
+               {
+                  "datetime":"2018-05-08 14:07:31",
+                  "netstakeweight":"146194931796213"
+               },
+               {
+                  "datetime":"2018-05-08 14:09:33",
+                  "netstakeweight":"144287763038358"
+               },
+               {
+                  "datetime":"2018-05-08 14:11:34",
+                  "netstakeweight":"143537403119000"
+               },
+               {
+                  "datetime":"2018-05-08 14:13:36",
+                  "netstakeweight":"144137947330809"
+               },
+               {
+                  "datetime":"2018-05-08 14:15:38",
+                  "netstakeweight":"145164508562591"
+               },
+               {
+                  "datetime":"2018-05-08 14:17:40",
+                  "netstakeweight":"145164508562591"
+               },
+               {
+                  "datetime":"2018-05-08 14:19:42",
+                  "netstakeweight":"145164508562591"
+               },
+               {
+                  "datetime":"2018-05-08 14:21:44",
+                  "netstakeweight":"140646883296180"
+               },
+               {
+                  "datetime":"2018-05-08 14:23:45",
+                  "netstakeweight":"140346033163499"
+               },
+               {
+                  "datetime":"2018-05-08 14:25:47",
+                  "netstakeweight":"140346033163499"
+               },
+               {
+                  "datetime":"2018-05-08 14:27:49",
+                  "netstakeweight":"155372098830446"
+               },
+               {
+                  "datetime":"2018-05-08 14:29:51",
+                  "netstakeweight":"165505712463758"
+               },
+               {
+                  "datetime":"2018-05-08 14:31:53",
+                  "netstakeweight":"165505712463758"
+               },
+               {
+                  "datetime":"2018-05-08 14:33:54",
+                  "netstakeweight":"165505712463758"
+               },
+               {
+                  "datetime":"2018-05-08 14:35:56",
+                  "netstakeweight":"165505712463758"
+               },
+               {
+                  "datetime":"2018-05-08 14:37:58",
+                  "netstakeweight":"163241364458028"
+               },
+               {
+                  "datetime":"2018-05-08 14:40:00",
+                  "netstakeweight":"163241364458028"
+               },
+               {
+                  "datetime":"2018-05-08 14:42:02",
+                  "netstakeweight":"155991340850372"
+               },
+               {
+                  "datetime":"2018-05-08 14:44:04",
+                  "netstakeweight":"153308570732888"
+               },
+               {
+                  "datetime":"2018-05-08 14:46:05",
+                  "netstakeweight":"172725292506031"
+               },
+               {
+                  "datetime":"2018-05-08 14:48:07",
+                  "netstakeweight":"168114981065625"
+               },
+               {
+                  "datetime":"2018-05-08 14:50:09",
+                  "netstakeweight":"173344322505878"
+               },
+               {
+                  "datetime":"2018-05-08 14:52:11",
+                  "netstakeweight":"173344322505878"
+               },
+               {
+                  "datetime":"2018-05-08 14:54:13",
+                  "netstakeweight":"173344322505878"
+               },
+               {
+                  "datetime":"2018-05-08 14:56:15",
+                  "netstakeweight":"168486447150257"
+               },
+               {
+                  "datetime":"2018-05-08 14:58:16",
+                  "netstakeweight":"166386159891629"
+               },
+               {
+                  "datetime":"2018-05-08 15:00:18",
+                  "netstakeweight":"167107055038562"
+               },
+               {
+                  "datetime":"2018-05-08 15:02:20",
+                  "netstakeweight":"167107055038562"
+               },
+               {
+                  "datetime":"2018-05-08 15:04:22",
+                  "netstakeweight":"167773525180121"
+               },
+               {
+                  "datetime":"2018-05-08 15:06:24",
+                  "netstakeweight":"167773525180121"
+               },
+               {
+                  "datetime":"2018-05-08 15:08:25",
+                  "netstakeweight":"170874783480967"
+               },
+               {
+                  "datetime":"2018-05-08 15:10:27",
+                  "netstakeweight":"174153751751423"
+               },
+               {
+                  "datetime":"2018-05-08 15:12:29",
+                  "netstakeweight":"173845357726063"
+               },
+               {
+                  "datetime":"2018-05-08 15:14:31",
+                  "netstakeweight":"172293284513013"
+               },
+               {
+                  "datetime":"2018-05-08 15:16:33",
+                  "netstakeweight":"171074802314095"
+               },
+               {
+                  "datetime":"2018-05-08 15:18:35",
+                  "netstakeweight":"171074802314095"
+               },
+               {
+                  "datetime":"2018-05-08 15:20:36",
+                  "netstakeweight":"171074802314095"
+               },
+               {
+                  "datetime":"2018-05-08 15:22:38",
+                  "netstakeweight":"171074802314095"
+               },
+               {
+                  "datetime":"2018-05-08 15:24:40",
+                  "netstakeweight":"171074802314095"
+               },
+               {
+                  "datetime":"2018-05-08 15:26:42",
+                  "netstakeweight":"161216742480397"
+               },
+               {
+                  "datetime":"2018-05-08 15:28:44",
+                  "netstakeweight":"156691837303890"
+               },
+               {
+                  "datetime":"2018-05-08 15:30:45",
+                  "netstakeweight":"158204190012991"
+               },
+               {
+                  "datetime":"2018-05-08 15:32:47",
+                  "netstakeweight":"161871049748130"
+               },
+               {
+                  "datetime":"2018-05-08 15:34:49",
+                  "netstakeweight":"162129474918045"
+               },
+               {
+                  "datetime":"2018-05-08 15:36:51",
+                  "netstakeweight":"162129474918045"
+               },
+               {
+                  "datetime":"2018-05-08 15:38:53",
+                  "netstakeweight":"161035949054260"
+               },
+               {
+                  "datetime":"2018-05-08 15:40:54",
+                  "netstakeweight":"161035949054260"
+               },
+               {
+                  "datetime":"2018-05-08 15:42:56",
+                  "netstakeweight":"159173160958420"
+               },
+               {
+                  "datetime":"2018-05-08 15:44:58",
+                  "netstakeweight":"152969179582773"
+               },
+               {
+                  "datetime":"2018-05-08 15:47:00",
+                  "netstakeweight":"151454160281431"
+               },
+               {
+                  "datetime":"2018-05-08 15:49:02",
+                  "netstakeweight":"149395948409353"
+               },
+               {
+                  "datetime":"2018-05-08 15:51:04",
+                  "netstakeweight":"144799116683404"
+               },
+               {
+                  "datetime":"2018-05-08 15:53:05",
+                  "netstakeweight":"151430074826430"
+               },
+               {
+                  "datetime":"2018-05-08 15:55:07",
+                  "netstakeweight":"151633315059193"
+               },
+               {
+                  "datetime":"2018-05-08 15:57:09",
+                  "netstakeweight":"154877388576398"
+               },
+               {
+                  "datetime":"2018-05-08 15:59:11",
+                  "netstakeweight":"156932620304810"
+               },
+               {
+                  "datetime":"2018-05-08 16:01:13",
+                  "netstakeweight":"156932620304810"
+               },
+               {
+                  "datetime":"2018-05-08 16:03:15",
+                  "netstakeweight":"156932620304810"
+               },
+               {
+                  "datetime":"2018-05-08 16:05:16",
+                  "netstakeweight":"150443892337354"
+               },
+               {
+                  "datetime":"2018-05-08 16:07:18",
+                  "netstakeweight":"153858274854848"
+               },
+               {
+                  "datetime":"2018-05-08 16:09:20",
+                  "netstakeweight":"153124536110394"
+               },
+               {
+                  "datetime":"2018-05-08 16:11:22",
+                  "netstakeweight":"151093635144433"
+               },
+               {
+                  "datetime":"2018-05-08 16:13:24",
+                  "netstakeweight":"151093635144433"
+               },
+               {
+                  "datetime":"2018-05-08 16:15:25",
+                  "netstakeweight":"151093635144433"
+               },
+               {
+                  "datetime":"2018-05-08 16:17:27",
+                  "netstakeweight":"140019187070123"
+               },
+               {
+                  "datetime":"2018-05-08 16:19:29",
+                  "netstakeweight":"140019187070123"
+               },
+               {
+                  "datetime":"2018-05-08 16:21:31",
+                  "netstakeweight":"118632186051120"
+               },
+               {
+                  "datetime":"2018-05-08 16:23:33",
+                  "netstakeweight":"118843241994830"
+               },
+               {
+                  "datetime":"2018-05-08 16:25:35",
+                  "netstakeweight":"121891716655095"
+               },
+               {
+                  "datetime":"2018-05-08 16:27:36",
+                  "netstakeweight":"122148521325166"
+               },
+               {
+                  "datetime":"2018-05-08 16:29:38",
+                  "netstakeweight":"123964010339241"
+               },
+               {
+                  "datetime":"2018-05-08 16:31:40",
+                  "netstakeweight":"123964010339241"
+               },
+               {
+                  "datetime":"2018-05-08 16:33:42",
+                  "netstakeweight":"123964010339241"
+               },
+               {
+                  "datetime":"2018-05-08 16:35:44",
+                  "netstakeweight":"116733814742001"
+               },
+               {
+                  "datetime":"2018-05-08 16:37:45",
+                  "netstakeweight":"119379106159269"
+               },
+               {
+                  "datetime":"2018-05-08 16:39:47",
+                  "netstakeweight":"122870517484328"
+               },
+               {
+                  "datetime":"2018-05-08 16:41:49",
+                  "netstakeweight":"122264451172906"
+               },
+               {
+                  "datetime":"2018-05-08 16:43:51",
+                  "netstakeweight":"123958026026710"
+               },
+               {
+                  "datetime":"2018-05-08 16:45:53",
+                  "netstakeweight":"123041029142564"
+               },
+               {
+                  "datetime":"2018-05-08 16:47:55",
+                  "netstakeweight":"123041029142564"
+               },
+               {
+                  "datetime":"2018-05-08 16:49:56",
+                  "netstakeweight":"123041029142564"
+               },
+               {
+                  "datetime":"2018-05-08 16:51:58",
+                  "netstakeweight":"123041029142564"
+               },
+               {
+                  "datetime":"2018-05-08 16:54:00",
+                  "netstakeweight":"117580922742084"
+               },
+               {
+                  "datetime":"2018-05-08 16:56:02",
+                  "netstakeweight":"117580922742084"
+               },
+               {
+                  "datetime":"2018-05-08 16:58:04",
+                  "netstakeweight":"117580922742084"
+               },
+               {
+                  "datetime":"2018-05-08 17:00:05",
+                  "netstakeweight":"117580922742084"
+               },
+               {
+                  "datetime":"2018-05-08 17:02:07",
+                  "netstakeweight":"117580922742084"
+               },
+               {
+                  "datetime":"2018-05-08 17:04:09",
+                  "netstakeweight":"109459545534666"
+               },
+               {
+                  "datetime":"2018-05-08 17:06:11",
+                  "netstakeweight":"113355213988119"
+               },
+               {
+                  "datetime":"2018-05-08 17:08:13",
+                  "netstakeweight":"113355213988119"
+               },
+               {
+                  "datetime":"2018-05-08 17:10:14",
+                  "netstakeweight":"112087120885642"
+               },
+               {
+                  "datetime":"2018-05-08 17:12:16",
+                  "netstakeweight":"112168938432479"
+               },
+               {
+                  "datetime":"2018-05-08 17:14:18",
+                  "netstakeweight":"112168938432479"
+               },
+               {
+                  "datetime":"2018-05-08 17:16:20",
+                  "netstakeweight":"113523064637348"
+               },
+               {
+                  "datetime":"2018-05-08 17:18:22",
+                  "netstakeweight":"112768231502602"
+               },
+               {
+                  "datetime":"2018-05-08 17:20:24",
+                  "netstakeweight":"119175813071872"
+               },
+               {
+                  "datetime":"2018-05-08 17:22:25",
+                  "netstakeweight":"122338074980439"
+               },
+               {
+                  "datetime":"2018-05-08 17:24:27",
+                  "netstakeweight":"122338074980439"
+               },
+               {
+                  "datetime":"2018-05-08 17:26:29",
+                  "netstakeweight":"122338074980439"
+               },
+               {
+                  "datetime":"2018-05-08 17:28:31",
+                  "netstakeweight":"122338074980439"
+               },
+               {
+                  "datetime":"2018-05-08 17:30:33",
+                  "netstakeweight":"122338074980439"
+               },
+               {
+                  "datetime":"2018-05-08 17:32:35",
+                  "netstakeweight":"122338074980439"
+               },
+               {
+                  "datetime":"2018-05-08 17:34:36",
+                  "netstakeweight":"114336006420683"
+               },
+               {
+                  "datetime":"2018-05-08 17:36:38",
+                  "netstakeweight":"114355981251933"
+               },
+               {
+                  "datetime":"2018-05-08 17:38:40",
+                  "netstakeweight":"114355981251933"
+               },
+               {
+                  "datetime":"2018-05-08 17:40:42",
+                  "netstakeweight":"111849907193219"
+               },
+               {
+                  "datetime":"2018-05-08 17:42:44",
+                  "netstakeweight":"106937525594486"
+               },
+               {
+                  "datetime":"2018-05-08 17:44:45",
+                  "netstakeweight":"105375022733612"
+               },
+               {
+                  "datetime":"2018-05-08 17:46:47",
+                  "netstakeweight":"105375022733612"
+               },
+               {
+                  "datetime":"2018-05-08 17:48:49",
+                  "netstakeweight":"103874729373835"
+               },
+               {
+                  "datetime":"2018-05-08 17:50:51",
+                  "netstakeweight":"103874729373835"
+               },
+               {
+                  "datetime":"2018-05-08 17:52:53",
+                  "netstakeweight":"112582233591047"
+               },
+               {
+                  "datetime":"2018-05-08 17:54:55",
+                  "netstakeweight":"112582233591047"
+               },
+               {
+                  "datetime":"2018-05-08 17:56:56",
+                  "netstakeweight":"112582233591047"
+               },
+               {
+                  "datetime":"2018-05-08 17:58:58",
+                  "netstakeweight":"112582233591047"
+               },
+               {
+                  "datetime":"2018-05-08 18:01:00",
+                  "netstakeweight":"112582233591047"
+               },
+               {
+                  "datetime":"2018-05-08 18:03:02",
+                  "netstakeweight":"112582233591047"
+               },
+               {
+                  "datetime":"2018-05-08 18:05:04",
+                  "netstakeweight":"112582233591047"
+               },
+               {
+                  "datetime":"2018-05-08 18:07:05",
+                  "netstakeweight":"112582233591047"
+               },
+               {
+                  "datetime":"2018-05-08 18:09:07",
+                  "netstakeweight":"112582233591047"
+               },
+               {
+                  "datetime":"2018-05-08 18:11:09",
+                  "netstakeweight":"112582233591047"
+               },
+               {
+                  "datetime":"2018-05-08 18:13:11",
+                  "netstakeweight":"112582233591047"
+               },
+               {
+                  "datetime":"2018-05-08 18:15:13",
+                  "netstakeweight":"99310057727884"
+               },
+               {
+                  "datetime":"2018-05-08 18:17:15",
+                  "netstakeweight":"101708173999121"
+               },
+               {
+                  "datetime":"2018-05-08 18:19:16",
+                  "netstakeweight":"103227980841548"
+               },
+               {
+                  "datetime":"2018-05-08 18:21:18",
+                  "netstakeweight":"106100797219912"
+               },
+               {
+                  "datetime":"2018-05-08 18:23:20",
+                  "netstakeweight":"106396152845588"
+               },
+               {
+                  "datetime":"2018-05-08 18:25:22",
+                  "netstakeweight":"107750877515321"
+               },
+               {
+                  "datetime":"2018-05-08 18:27:24",
+                  "netstakeweight":"112343000098561"
+               },
+               {
+                  "datetime":"2018-05-08 18:29:25",
+                  "netstakeweight":"112343000098561"
+               },
+               {
+                  "datetime":"2018-05-08 18:31:27",
+                  "netstakeweight":"113809014658372"
+               },
+               {
+                  "datetime":"2018-05-08 18:33:29",
+                  "netstakeweight":"117896156290742"
+               },
+               {
+                  "datetime":"2018-05-08 18:35:31",
+                  "netstakeweight":"118356447476799"
+               },
+               {
+                  "datetime":"2018-05-08 18:37:33",
+                  "netstakeweight":"119289274185741"
+               },
+               {
+                  "datetime":"2018-05-08 18:39:35",
+                  "netstakeweight":"120397103774408"
+               },
+               {
+                  "datetime":"2018-05-08 18:41:36",
+                  "netstakeweight":"120837748039011"
+               },
+               {
+                  "datetime":"2018-05-08 18:43:38",
+                  "netstakeweight":"118035040077929"
+               },
+               {
+                  "datetime":"2018-05-08 18:45:40",
+                  "netstakeweight":"118035040077929"
+               },
+               {
+                  "datetime":"2018-05-08 18:47:42",
+                  "netstakeweight":"117100320544335"
+               },
+               {
+                  "datetime":"2018-05-08 18:49:44",
+                  "netstakeweight":"115547204166627"
+               },
+               {
+                  "datetime":"2018-05-08 18:51:46",
+                  "netstakeweight":"121693261433301"
+               },
+               {
+                  "datetime":"2018-05-08 18:53:47",
+                  "netstakeweight":"134669338954035"
+               },
+               {
+                  "datetime":"2018-05-08 18:55:49",
+                  "netstakeweight":"136233884029568"
+               },
+               {
+                  "datetime":"2018-05-08 18:57:51",
+                  "netstakeweight":"136233884029568"
+               },
+               {
+                  "datetime":"2018-05-08 18:59:53",
+                  "netstakeweight":"136233884029568"
+               },
+               {
+                  "datetime":"2018-05-08 19:01:55",
+                  "netstakeweight":"133497065416682"
+               },
+               {
+                  "datetime":"2018-05-08 19:03:56",
+                  "netstakeweight":"139954653443977"
+               },
+               {
+                  "datetime":"2018-05-08 19:05:58",
+                  "netstakeweight":"139954653443977"
+               },
+               {
+                  "datetime":"2018-05-08 19:08:00",
+                  "netstakeweight":"139954653443977"
+               },
+               {
+                  "datetime":"2018-05-08 19:10:02",
+                  "netstakeweight":"139954653443977"
+               },
+               {
+                  "datetime":"2018-05-08 19:12:04",
+                  "netstakeweight":"139954653443977"
+               },
+               {
+                  "datetime":"2018-05-08 19:14:06",
+                  "netstakeweight":"139954653443977"
+               },
+               {
+                  "datetime":"2018-05-08 19:16:07",
+                  "netstakeweight":"139954653443977"
+               },
+               {
+                  "datetime":"2018-05-08 19:18:09",
+                  "netstakeweight":"139954653443977"
+               },
+               {
+                  "datetime":"2018-05-08 19:20:11",
+                  "netstakeweight":"139954653443977"
+               },
+               {
+                  "datetime":"2018-05-08 19:22:13",
+                  "netstakeweight":"139954653443977"
+               },
+               {
+                  "datetime":"2018-05-08 19:24:15",
+                  "netstakeweight":"139954653443977"
+               },
+               {
+                  "datetime":"2018-05-08 19:26:16",
+                  "netstakeweight":"139954653443977"
+               },
+               {
+                  "datetime":"2018-05-08 19:28:18",
+                  "netstakeweight":"139954653443977"
+               },
+               {
+                  "datetime":"2018-05-08 19:30:20",
+                  "netstakeweight":"139954653443977"
+               },
+               {
+                  "datetime":"2018-05-08 19:32:22",
+                  "netstakeweight":"116001890072532"
+               },
+               {
+                  "datetime":"2018-05-08 19:34:24",
+                  "netstakeweight":"115924188785328"
+               },
+               {
+                  "datetime":"2018-05-08 19:36:26",
+                  "netstakeweight":"116664909327233"
+               },
+               {
+                  "datetime":"2018-05-08 19:38:27",
+                  "netstakeweight":"116611036935599"
+               },
+               {
+                  "datetime":"2018-05-08 19:40:29",
+                  "netstakeweight":"114731651184826"
+               },
+               {
+                  "datetime":"2018-05-08 19:42:31",
+                  "netstakeweight":"114731651184826"
+               },
+               {
+                  "datetime":"2018-05-08 19:44:33",
+                  "netstakeweight":"117365751970359"
+               },
+               {
+                  "datetime":"2018-05-08 19:46:35",
+                  "netstakeweight":"117365751970359"
+               },
+               {
+                  "datetime":"2018-05-08 19:48:36",
+                  "netstakeweight":"117365751970359"
+               },
+               {
+                  "datetime":"2018-05-08 19:50:38",
+                  "netstakeweight":"116483349639683"
+               },
+               {
+                  "datetime":"2018-05-08 19:52:40",
+                  "netstakeweight":"116832789061523"
+               },
+               {
+                  "datetime":"2018-05-08 19:54:42",
+                  "netstakeweight":"117436711610212"
+               },
+               {
+                  "datetime":"2018-05-08 19:56:44",
+                  "netstakeweight":"119006520953683"
+               },
+               {
+                  "datetime":"2018-05-08 19:58:45",
+                  "netstakeweight":"119488572887956"
+               },
+               {
+                  "datetime":"2018-05-08 20:00:47",
+                  "netstakeweight":"122971925091397"
+               },
+               {
+                  "datetime":"2018-05-08 20:02:49",
+                  "netstakeweight":"122971925091397"
+               },
+               {
+                  "datetime":"2018-05-08 20:04:51",
+                  "netstakeweight":"122971925091397"
+               },
+               {
+                  "datetime":"2018-05-08 20:06:53",
+                  "netstakeweight":"138112067230572"
+               },
+               {
+                  "datetime":"2018-05-08 20:08:55",
+                  "netstakeweight":"138112067230572"
+               },
+               {
+                  "datetime":"2018-05-08 20:10:56",
+                  "netstakeweight":"138590537617679"
+               },
+               {
+                  "datetime":"2018-05-08 20:12:58",
+                  "netstakeweight":"142785841926715"
+               },
+               {
+                  "datetime":"2018-05-08 20:15:00",
+                  "netstakeweight":"144691200757095"
+               },
+               {
+                  "datetime":"2018-05-08 20:17:02",
+                  "netstakeweight":"146539664607299"
+               },
+               {
+                  "datetime":"2018-05-08 20:19:04",
+                  "netstakeweight":"151347883387162"
+               },
+               {
+                  "datetime":"2018-05-08 20:21:05",
+                  "netstakeweight":"151347883387162"
+               },
+               {
+                  "datetime":"2018-05-08 20:23:07",
+                  "netstakeweight":"151347883387162"
+               },
+               {
+                  "datetime":"2018-05-08 20:25:09",
+                  "netstakeweight":"151347883387162"
+               },
+               {
+                  "datetime":"2018-05-08 20:27:11",
+                  "netstakeweight":"151347883387162"
+               },
+               {
+                  "datetime":"2018-05-08 20:29:13",
+                  "netstakeweight":"144456216894070"
+               },
+               {
+                  "datetime":"2018-05-08 20:31:15",
+                  "netstakeweight":"144456216894070"
+               },
+               {
+                  "datetime":"2018-05-08 20:33:16",
+                  "netstakeweight":"141298358082385"
+               },
+               {
+                  "datetime":"2018-05-08 20:35:18",
+                  "netstakeweight":"135365884579035"
+               },
+               {
+                  "datetime":"2018-05-08 20:37:20",
+                  "netstakeweight":"134928657417072"
+               },
+               {
+                  "datetime":"2018-05-08 20:39:22",
+                  "netstakeweight":"133134077116794"
+               },
+               {
+                  "datetime":"2018-05-08 20:41:24",
+                  "netstakeweight":"136391197220581"
+               },
+               {
+                  "datetime":"2018-05-08 20:43:25",
+                  "netstakeweight":"136391197220581"
+               },
+               {
+                  "datetime":"2018-05-08 20:45:27",
+                  "netstakeweight":"138880664243589"
+               },
+               {
+                  "datetime":"2018-05-08 20:47:29",
+                  "netstakeweight":"138880664243589"
+               },
+               {
+                  "datetime":"2018-05-08 20:49:31",
+                  "netstakeweight":"138880664243589"
+               },
+               {
+                  "datetime":"2018-05-08 20:51:33",
+                  "netstakeweight":"135433622887040"
+               },
+               {
+                  "datetime":"2018-05-08 20:53:35",
+                  "netstakeweight":"136184446676235"
+               },
+               {
+                  "datetime":"2018-05-08 20:55:36",
+                  "netstakeweight":"138919753646849"
+               },
+               {
+                  "datetime":"2018-05-08 20:57:38",
+                  "netstakeweight":"138919753646849"
+               },
+               {
+                  "datetime":"2018-05-08 20:59:40",
+                  "netstakeweight":"138919753646849"
+               },
+               {
+                  "datetime":"2018-05-08 21:01:42",
+                  "netstakeweight":"131862043710915"
+               },
+               {
+                  "datetime":"2018-05-08 21:03:44",
+                  "netstakeweight":"131862043710915"
+               },
+               {
+                  "datetime":"2018-05-08 21:05:45",
+                  "netstakeweight":"131862043710915"
+               },
+               {
+                  "datetime":"2018-05-08 21:07:47",
+                  "netstakeweight":"124967496522938"
+               },
+               {
+                  "datetime":"2018-05-08 21:09:49",
+                  "netstakeweight":"123752251494109"
+               },
+               {
+                  "datetime":"2018-05-08 21:11:51",
+                  "netstakeweight":"124511387225926"
+               },
+               {
+                  "datetime":"2018-05-08 21:13:53",
+                  "netstakeweight":"151367441897565"
+               },
+               {
+                  "datetime":"2018-05-08 21:15:55",
+                  "netstakeweight":"153385696883208"
+               },
+               {
+                  "datetime":"2018-05-08 21:17:56",
+                  "netstakeweight":"151614433293816"
+               },
+               {
+                  "datetime":"2018-05-08 21:19:58",
+                  "netstakeweight":"150403360197895"
+               },
+               {
+                  "datetime":"2018-05-08 21:22:00",
+                  "netstakeweight":"147815273956630"
+               },
+               {
+                  "datetime":"2018-05-08 21:24:02",
+                  "netstakeweight":"148169584418614"
+               },
+               {
+                  "datetime":"2018-05-08 21:26:04",
+                  "netstakeweight":"152665824970160"
+               },
+               {
+                  "datetime":"2018-05-08 21:28:06",
+                  "netstakeweight":"156690542132831"
+               },
+               {
+                  "datetime":"2018-05-08 21:30:07",
+                  "netstakeweight":"156433957878244"
+               },
+               {
+                  "datetime":"2018-05-08 21:32:09",
+                  "netstakeweight":"168420662311689"
+               },
+               {
+                  "datetime":"2018-05-08 21:34:11",
+                  "netstakeweight":"171359043446729"
+               },
+               {
+                  "datetime":"2018-05-08 21:36:13",
+                  "netstakeweight":"173563510160720"
+               },
+               {
+                  "datetime":"2018-05-08 21:38:15",
+                  "netstakeweight":"173563510160720"
+               },
+               {
+                  "datetime":"2018-05-08 21:40:16",
+                  "netstakeweight":"173563510160720"
+               },
+               {
+                  "datetime":"2018-05-08 21:42:18",
+                  "netstakeweight":"168552964776845"
+               },
+               {
+                  "datetime":"2018-05-08 21:44:20",
+                  "netstakeweight":"167598702342847"
+               },
+               {
+                  "datetime":"2018-05-08 21:46:22",
+                  "netstakeweight":"166264906482177"
+               },
+               {
+                  "datetime":"2018-05-08 21:48:24",
+                  "netstakeweight":"166264906482177"
+               },
+               {
+                  "datetime":"2018-05-08 21:50:26",
+                  "netstakeweight":"163718982727335"
+               },
+               {
+                  "datetime":"2018-05-08 21:52:27",
+                  "netstakeweight":"163718982727335"
+               },
+               {
+                  "datetime":"2018-05-08 21:54:29",
+                  "netstakeweight":"163718982727335"
+               },
+               {
+                  "datetime":"2018-05-08 21:56:31",
+                  "netstakeweight":"160950139926787"
+               },
+               {
+                  "datetime":"2018-05-08 21:58:33",
+                  "netstakeweight":"158732607357107"
+               },
+               {
+                  "datetime":"2018-05-08 22:00:35",
+                  "netstakeweight":"158732607357107"
+               },
+               {
+                  "datetime":"2018-05-08 22:02:37",
+                  "netstakeweight":"158732607357107"
+               },
+               {
+                  "datetime":"2018-05-08 22:04:38",
+                  "netstakeweight":"149086115524510"
+               },
+               {
+                  "datetime":"2018-05-08 22:06:40",
+                  "netstakeweight":"138439731206877"
+               },
+               {
+                  "datetime":"2018-05-08 22:08:42",
+                  "netstakeweight":"138439731206877"
+               },
+               {
+                  "datetime":"2018-05-08 22:10:44",
+                  "netstakeweight":"149693764576454"
+               },
+               {
+                  "datetime":"2018-05-08 22:12:46",
+                  "netstakeweight":"151880979764765"
+               },
+               {
+                  "datetime":"2018-05-08 22:14:47",
+                  "netstakeweight":"150179978826774"
+               },
+               {
+                  "datetime":"2018-05-08 22:16:49",
+                  "netstakeweight":"149348881510310"
+               },
+               {
+                  "datetime":"2018-05-08 22:18:51",
+                  "netstakeweight":"150704330573857"
+               },
+               {
+                  "datetime":"2018-05-08 22:20:53",
+                  "netstakeweight":"151415542633365"
+               },
+               {
+                  "datetime":"2018-05-08 22:22:55",
+                  "netstakeweight":"151415542633365"
+               },
+               {
+                  "datetime":"2018-05-08 22:24:57",
+                  "netstakeweight":"151415542633365"
+               },
+               {
+                  "datetime":"2018-05-08 22:26:58",
+                  "netstakeweight":"139787343500943"
+               },
+               {
+                  "datetime":"2018-05-08 22:29:00",
+                  "netstakeweight":"145219467261380"
+               },
+               {
+                  "datetime":"2018-05-08 22:31:02",
+                  "netstakeweight":"145312622567234"
+               },
+               {
+                  "datetime":"2018-05-08 22:33:04",
+                  "netstakeweight":"143867427782633"
+               },
+               {
+                  "datetime":"2018-05-08 22:35:06",
+                  "netstakeweight":"141945876923237"
+               },
+               {
+                  "datetime":"2018-05-08 22:37:07",
+                  "netstakeweight":"141945876923237"
+               },
+               {
+                  "datetime":"2018-05-08 22:39:09",
+                  "netstakeweight":"136992201504454"
+               },
+               {
+                  "datetime":"2018-05-08 22:41:11",
+                  "netstakeweight":"144788403312692"
+               },
+               {
+                  "datetime":"2018-05-08 22:43:13",
+                  "netstakeweight":"147007229026917"
+               },
+               {
+                  "datetime":"2018-05-08 22:45:15",
+                  "netstakeweight":"150225678820626"
+               },
+               {
+                  "datetime":"2018-05-08 22:47:17",
+                  "netstakeweight":"150225678820626"
+               },
+               {
+                  "datetime":"2018-05-08 22:49:18",
+                  "netstakeweight":"150225678820626"
+               },
+               {
+                  "datetime":"2018-05-08 22:51:20",
+                  "netstakeweight":"148012038582624"
+               },
+               {
+                  "datetime":"2018-05-08 22:53:22",
+                  "netstakeweight":"151015489502055"
+               },
+               {
+                  "datetime":"2018-05-08 22:55:24",
+                  "netstakeweight":"150524335829082"
+               },
+               {
+                  "datetime":"2018-05-08 22:57:26",
+                  "netstakeweight":"150524335829082"
+               },
+               {
+                  "datetime":"2018-05-08 22:59:27",
+                  "netstakeweight":"151500258326980"
+               },
+               {
+                  "datetime":"2018-05-08 23:01:29",
+                  "netstakeweight":"153850950900064"
+               },
+               {
+                  "datetime":"2018-05-08 23:03:31",
+                  "netstakeweight":"159318099205175"
+               },
+               {
+                  "datetime":"2018-05-08 23:05:33",
+                  "netstakeweight":"160273994110385"
+               },
+               {
+                  "datetime":"2018-05-08 23:07:35",
+                  "netstakeweight":"160273994110385"
+               },
+               {
+                  "datetime":"2018-05-08 23:09:37",
+                  "netstakeweight":"160273994110385"
+               },
+               {
+                  "datetime":"2018-05-08 23:11:38",
+                  "netstakeweight":"151119467926074"
+               },
+               {
+                  "datetime":"2018-05-08 23:13:40",
+                  "netstakeweight":"149295729221970"
+               },
+               {
+                  "datetime":"2018-05-08 23:15:42",
+                  "netstakeweight":"149295729221970"
+               },
+               {
+                  "datetime":"2018-05-08 23:17:44",
+                  "netstakeweight":"137943704916128"
+               },
+               {
+                  "datetime":"2018-05-08 23:19:46",
+                  "netstakeweight":"136978450857956"
+               },
+               {
+                  "datetime":"2018-05-08 23:21:48",
+                  "netstakeweight":"141072138595083"
+               },
+               {
+                  "datetime":"2018-05-08 23:23:49",
+                  "netstakeweight":"141072138595083"
+               },
+               {
+                  "datetime":"2018-05-08 23:25:51",
+                  "netstakeweight":"139949837972278"
+               },
+               {
+                  "datetime":"2018-05-08 23:27:53",
+                  "netstakeweight":"140166349919068"
+               },
+               {
+                  "datetime":"2018-05-08 23:29:55",
+                  "netstakeweight":"137659634861027"
+               },
+               {
+                  "datetime":"2018-05-08 23:31:57",
+                  "netstakeweight":"133280913115023"
+               },
+               {
+                  "datetime":"2018-05-08 23:33:58",
+                  "netstakeweight":"132293764047902"
+               },
+               {
+                  "datetime":"2018-05-08 23:36:00",
+                  "netstakeweight":"137634895991242"
+               },
+               {
+                  "datetime":"2018-05-08 23:38:02",
+                  "netstakeweight":"137634895991242"
+               },
+               {
+                  "datetime":"2018-05-08 23:40:04",
+                  "netstakeweight":"137634895991242"
+               },
+               {
+                  "datetime":"2018-05-08 23:42:06",
+                  "netstakeweight":"137634895991242"
+               },
+               {
+                  "datetime":"2018-05-08 23:44:08",
+                  "netstakeweight":"131186363920888"
+               },
+               {
+                  "datetime":"2018-05-08 23:46:09",
+                  "netstakeweight":"133911480509159"
+               },
+               {
+                  "datetime":"2018-05-08 23:48:11",
+                  "netstakeweight":"133911480509159"
+               },
+               {
+                  "datetime":"2018-05-08 23:50:13",
+                  "netstakeweight":"134222809717033"
+               },
+               {
+                  "datetime":"2018-05-08 23:52:15",
+                  "netstakeweight":"135063474314742"
+               },
+               {
+                  "datetime":"2018-05-08 23:54:17",
+                  "netstakeweight":"134906912316447"
+               },
+               {
+                  "datetime":"2018-05-08 23:56:18",
+                  "netstakeweight":"131778888363458"
+               },
+               {
+                  "datetime":"2018-05-08 23:58:20",
+                  "netstakeweight":"130688213412987"
+               },
+               {
+                  "datetime":"2018-05-09 00:00:22",
+                  "netstakeweight":"131278563941771"
+               },
+               {
+                  "datetime":"2018-05-09 00:02:24",
+                  "netstakeweight":"131211952964886"
+               },
+               {
+                  "datetime":"2018-05-09 00:04:26",
+                  "netstakeweight":"130908263718085"
+               },
+               {
+                  "datetime":"2018-05-09 00:06:28",
+                  "netstakeweight":"128819287388170"
+               },
+               {
+                  "datetime":"2018-05-09 00:08:29",
+                  "netstakeweight":"134238666248040"
+               },
+               {
+                  "datetime":"2018-05-09 00:10:31",
+                  "netstakeweight":"134238666248040"
+               },
+               {
+                  "datetime":"2018-05-09 00:12:33",
+                  "netstakeweight":"130515543033299"
+               },
+               {
+                  "datetime":"2018-05-09 00:14:35",
+                  "netstakeweight":"134061038887212"
+               },
+               {
+                  "datetime":"2018-05-09 00:16:37",
+                  "netstakeweight":"138538089465697"
+               },
+               {
+                  "datetime":"2018-05-09 00:18:38",
+                  "netstakeweight":"138538089465697"
+               },
+               {
+                  "datetime":"2018-05-09 00:20:40",
+                  "netstakeweight":"138538089465697"
+               },
+               {
+                  "datetime":"2018-05-09 00:22:42",
+                  "netstakeweight":"138538089465697"
+               },
+               {
+                  "datetime":"2018-05-09 00:24:44",
+                  "netstakeweight":"138538089465697"
+               },
+               {
+                  "datetime":"2018-05-09 00:26:46",
+                  "netstakeweight":"130508414352010"
+               },
+               {
+                  "datetime":"2018-05-09 00:28:48",
+                  "netstakeweight":"138572614495000"
+               },
+               {
+                  "datetime":"2018-05-09 00:30:49",
+                  "netstakeweight":"138572614495000"
+               },
+               {
+                  "datetime":"2018-05-09 00:32:51",
+                  "netstakeweight":"139294425655551"
+               },
+               {
+                  "datetime":"2018-05-09 00:34:53",
+                  "netstakeweight":"139294425655551"
+               },
+               {
+                  "datetime":"2018-05-09 00:36:55",
+                  "netstakeweight":"139294425655551"
+               },
+               {
+                  "datetime":"2018-05-09 00:38:57",
+                  "netstakeweight":"132170284050914"
+               },
+               {
+                  "datetime":"2018-05-09 00:40:59",
+                  "netstakeweight":"132170284050914"
+               },
+               {
+                  "datetime":"2018-05-09 00:43:00",
+                  "netstakeweight":"132170284050914"
+               },
+               {
+                  "datetime":"2018-05-09 00:45:02",
+                  "netstakeweight":"130291914034900"
+               },
+               {
+                  "datetime":"2018-05-09 00:47:04",
+                  "netstakeweight":"129022595104774"
+               },
+               {
+                  "datetime":"2018-05-09 00:49:06",
+                  "netstakeweight":"132930292050854"
+               },
+               {
+                  "datetime":"2018-05-09 00:51:08",
+                  "netstakeweight":"132930292050854"
+               },
+               {
+                  "datetime":"2018-05-09 00:53:09",
+                  "netstakeweight":"131050464059925"
+               },
+               {
+                  "datetime":"2018-05-09 00:55:11",
+                  "netstakeweight":"131211477071365"
+               },
+               {
+                  "datetime":"2018-05-09 00:57:13",
+                  "netstakeweight":"133196894437691"
+               },
+               {
+                  "datetime":"2018-05-09 00:59:15",
+                  "netstakeweight":"132557958591109"
+               },
+               {
+                  "datetime":"2018-05-09 01:01:17",
+                  "netstakeweight":"125947305221740"
+               },
+               {
+                  "datetime":"2018-05-09 01:03:19",
+                  "netstakeweight":"125947305221740"
+               },
+               {
+                  "datetime":"2018-05-09 01:05:20",
+                  "netstakeweight":"128588673023521"
+               },
+               {
+                  "datetime":"2018-05-09 01:07:22",
+                  "netstakeweight":"131491087498670"
+               },
+               {
+                  "datetime":"2018-05-09 01:09:24",
+                  "netstakeweight":"133432049743761"
+               },
+               {
+                  "datetime":"2018-05-09 01:11:26",
+                  "netstakeweight":"134728545787528"
+               },
+               {
+                  "datetime":"2018-05-09 01:13:28",
+                  "netstakeweight":"134618429045583"
+               },
+               {
+                  "datetime":"2018-05-09 01:15:29",
+                  "netstakeweight":"137456110909765"
+               },
+               {
+                  "datetime":"2018-05-09 01:17:31",
+                  "netstakeweight":"137456110909765"
+               },
+               {
+                  "datetime":"2018-05-09 01:19:33",
+                  "netstakeweight":"134466797604072"
+               },
+               {
+                  "datetime":"2018-05-09 01:21:35",
+                  "netstakeweight":"136639984763015"
+               },
+               {
+                  "datetime":"2018-05-09 01:23:37",
+                  "netstakeweight":"136028008542197"
+               },
+               {
+                  "datetime":"2018-05-09 01:25:39",
+                  "netstakeweight":"136028008542197"
+               },
+               {
+                  "datetime":"2018-05-09 01:27:40",
+                  "netstakeweight":"132703179532384"
+               },
+               {
+                  "datetime":"2018-05-09 01:29:42",
+                  "netstakeweight":"139191574921064"
+               },
+               {
+                  "datetime":"2018-05-09 01:31:44",
+                  "netstakeweight":"139140205637227"
+               },
+               {
+                  "datetime":"2018-05-09 01:33:46",
+                  "netstakeweight":"148640152125821"
+               },
+               {
+                  "datetime":"2018-05-09 01:35:48",
+                  "netstakeweight":"148640152125821"
+               },
+               {
+                  "datetime":"2018-05-09 01:37:49",
+                  "netstakeweight":"148640152125821"
+               },
+               {
+                  "datetime":"2018-05-09 01:39:51",
+                  "netstakeweight":"148640152125821"
+               },
+               {
+                  "datetime":"2018-05-09 01:41:53",
+                  "netstakeweight":"148640152125821"
+               },
+               {
+                  "datetime":"2018-05-09 01:43:55",
+                  "netstakeweight":"148640152125821"
+               },
+               {
+                  "datetime":"2018-05-09 01:45:57",
+                  "netstakeweight":"148640152125821"
+               },
+               {
+                  "datetime":"2018-05-09 01:47:59",
+                  "netstakeweight":"148640152125821"
+               },
+               {
+                  "datetime":"2018-05-09 01:50:00",
+                  "netstakeweight":"148640152125821"
+               },
+               {
+                  "datetime":"2018-05-09 01:52:02",
+                  "netstakeweight":"134954328744420"
+               },
+               {
+                  "datetime":"2018-05-09 01:54:04",
+                  "netstakeweight":"136086186128166"
+               },
+               {
+                  "datetime":"2018-05-09 01:56:06",
+                  "netstakeweight":"136207303608625"
+               },
+               {
+                  "datetime":"2018-05-09 01:58:08",
+                  "netstakeweight":"137882539205537"
+               },
+               {
+                  "datetime":"2018-05-09 02:00:09",
+                  "netstakeweight":"139180658837569"
+               },
+               {
+                  "datetime":"2018-05-09 02:02:11",
+                  "netstakeweight":"139300111737374"
+               },
+               {
+                  "datetime":"2018-05-09 02:04:13",
+                  "netstakeweight":"139517998909654"
+               },
+               {
+                  "datetime":"2018-05-09 02:06:15",
+                  "netstakeweight":"139517998909654"
+               },
+               {
+                  "datetime":"2018-05-09 02:08:17",
+                  "netstakeweight":"142019427880456"
+               },
+               {
+                  "datetime":"2018-05-09 02:10:19",
+                  "netstakeweight":"141024968664525"
+               },
+               {
+                  "datetime":"2018-05-09 02:12:20",
+                  "netstakeweight":"141474962379176"
+               },
+               {
+                  "datetime":"2018-05-09 02:14:22",
+                  "netstakeweight":"141474962379176"
+               },
+               {
+                  "datetime":"2018-05-09 02:16:24",
+                  "netstakeweight":"141474962379176"
+               },
+               {
+                  "datetime":"2018-05-09 02:18:26",
+                  "netstakeweight":"141474962379176"
+               },
+               {
+                  "datetime":"2018-05-09 02:20:28",
+                  "netstakeweight":"142748645427249"
+               },
+               {
+                  "datetime":"2018-05-09 02:22:29",
+                  "netstakeweight":"143081185912098"
+               },
+               {
+                  "datetime":"2018-05-09 02:24:31",
+                  "netstakeweight":"140921230729418"
+               },
+               {
+                  "datetime":"2018-05-09 02:26:33",
+                  "netstakeweight":"136581636965042"
+               },
+               {
+                  "datetime":"2018-05-09 02:28:35",
+                  "netstakeweight":"141556725026475"
+               },
+               {
+                  "datetime":"2018-05-09 02:30:37",
+                  "netstakeweight":"145468715317043"
+               },
+               {
+                  "datetime":"2018-05-09 02:32:39",
+                  "netstakeweight":"145468715317043"
+               },
+               {
+                  "datetime":"2018-05-09 02:34:40",
+                  "netstakeweight":"139923753014367"
+               },
+               {
+                  "datetime":"2018-05-09 02:36:42",
+                  "netstakeweight":"137105355049267"
+               },
+               {
+                  "datetime":"2018-05-09 02:38:44",
+                  "netstakeweight":"137105355049267"
+               },
+               {
+                  "datetime":"2018-05-09 02:40:46",
+                  "netstakeweight":"137857236461129"
+               },
+               {
+                  "datetime":"2018-05-09 02:42:48",
+                  "netstakeweight":"138268707503987"
+               },
+               {
+                  "datetime":"2018-05-09 02:44:49",
+                  "netstakeweight":"136693015673534"
+               },
+               {
+                  "datetime":"2018-05-09 02:46:51",
+                  "netstakeweight":"139436721684553"
+               },
+               {
+                  "datetime":"2018-05-09 02:48:53",
+                  "netstakeweight":"137104848129293"
+               },
+               {
+                  "datetime":"2018-05-09 02:50:55",
+                  "netstakeweight":"143927110680095"
+               },
+               {
+                  "datetime":"2018-05-09 02:52:57",
+                  "netstakeweight":"148228391179337"
+               },
+               {
+                  "datetime":"2018-05-09 02:54:59",
+                  "netstakeweight":"148228391179337"
+               },
+               {
+                  "datetime":"2018-05-09 02:57:00",
+                  "netstakeweight":"145720716893978"
+               },
+               {
+                  "datetime":"2018-05-09 02:59:02",
+                  "netstakeweight":"142853896403053"
+               },
+               {
+                  "datetime":"2018-05-09 03:01:04",
+                  "netstakeweight":"142783730860128"
+               },
+               {
+                  "datetime":"2018-05-09 03:03:06",
+                  "netstakeweight":"142783730860128"
+               },
+               {
+                  "datetime":"2018-05-09 03:05:08",
+                  "netstakeweight":"138408364233049"
+               },
+               {
+                  "datetime":"2018-05-09 03:07:10",
+                  "netstakeweight":"146270508294244"
+               },
+               {
+                  "datetime":"2018-05-09 03:09:11",
+                  "netstakeweight":"146270508294244"
+               },
+               {
+                  "datetime":"2018-05-09 03:11:13",
+                  "netstakeweight":"149637786974652"
+               },
+               {
+                  "datetime":"2018-05-09 03:13:15",
+                  "netstakeweight":"149637786974652"
+               },
+               {
+                  "datetime":"2018-05-09 03:15:17",
+                  "netstakeweight":"151320192659296"
+               },
+               {
+                  "datetime":"2018-05-09 03:17:19",
+                  "netstakeweight":"151320192659296"
+               },
+               {
+                  "datetime":"2018-05-09 03:19:20",
+                  "netstakeweight":"148952748049306"
+               },
+               {
+                  "datetime":"2018-05-09 03:21:22",
+                  "netstakeweight":"153580533595791"
+               },
+               {
+                  "datetime":"2018-05-09 03:23:24",
+                  "netstakeweight":"155990067276772"
+               },
+               {
+                  "datetime":"2018-05-09 03:25:26",
+                  "netstakeweight":"155990067276772"
+               },
+               {
+                  "datetime":"2018-05-09 03:27:28",
+                  "netstakeweight":"151622435727270"
+               },
+               {
+                  "datetime":"2018-05-09 03:29:30",
+                  "netstakeweight":"151622435727270"
+               },
+               {
+                  "datetime":"2018-05-09 03:31:31",
+                  "netstakeweight":"157888900457611"
+               },
+               {
+                  "datetime":"2018-05-09 03:33:33",
+                  "netstakeweight":"159050596821062"
+               },
+               {
+                  "datetime":"2018-05-09 03:35:35",
+                  "netstakeweight":"162512012732070"
+               },
+               {
+                  "datetime":"2018-05-09 03:37:37",
+                  "netstakeweight":"162512012732070"
+               },
+               {
+                  "datetime":"2018-05-09 03:39:39",
+                  "netstakeweight":"157197016254977"
+               },
+               {
+                  "datetime":"2018-05-09 03:41:40",
+                  "netstakeweight":"155090167206710"
+               },
+               {
+                  "datetime":"2018-05-09 03:43:42",
+                  "netstakeweight":"156410222111888"
+               },
+               {
+                  "datetime":"2018-05-09 03:45:44",
+                  "netstakeweight":"160347968039117"
+               },
+               {
+                  "datetime":"2018-05-09 03:47:46",
+                  "netstakeweight":"158814917678097"
+               },
+               {
+                  "datetime":"2018-05-09 03:49:48",
+                  "netstakeweight":"158039455107609"
+               },
+               {
+                  "datetime":"2018-05-09 03:51:50",
+                  "netstakeweight":"158957777067018"
+               },
+               {
+                  "datetime":"2018-05-09 03:53:51",
+                  "netstakeweight":"158957777067018"
+               },
+               {
+                  "datetime":"2018-05-09 03:55:53",
+                  "netstakeweight":"158957777067018"
+               },
+               {
+                  "datetime":"2018-05-09 03:57:55",
+                  "netstakeweight":"158957777067018"
+               },
+               {
+                  "datetime":"2018-05-09 03:59:57",
+                  "netstakeweight":"166732192943732"
+               },
+               {
+                  "datetime":"2018-05-09 04:01:59",
+                  "netstakeweight":"165327798290450"
+               },
+               {
+                  "datetime":"2018-05-09 04:04:01",
+                  "netstakeweight":"170358729518011"
+               },
+               {
+                  "datetime":"2018-05-09 04:06:02",
+                  "netstakeweight":"170358729518011"
+               },
+               {
+                  "datetime":"2018-05-09 04:08:04",
+                  "netstakeweight":"168831268633301"
+               },
+               {
+                  "datetime":"2018-05-09 04:10:06",
+                  "netstakeweight":"167623407775568"
+               },
+               {
+                  "datetime":"2018-05-09 04:12:08",
+                  "netstakeweight":"160604841031533"
+               },
+               {
+                  "datetime":"2018-05-09 04:14:10",
+                  "netstakeweight":"171091934873789"
+               },
+               {
+                  "datetime":"2018-05-09 04:16:11",
+                  "netstakeweight":"171091934873789"
+               },
+               {
+                  "datetime":"2018-05-09 04:18:13",
+                  "netstakeweight":"171091934873789"
+               },
+               {
+                  "datetime":"2018-05-09 04:20:15",
+                  "netstakeweight":"171091934873789"
+               },
+               {
+                  "datetime":"2018-05-09 04:22:17",
+                  "netstakeweight":"163241159588530"
+               },
+               {
+                  "datetime":"2018-05-09 04:24:19",
+                  "netstakeweight":"164894925007210"
+               },
+               {
+                  "datetime":"2018-05-09 04:26:21",
+                  "netstakeweight":"165052443470803"
+               },
+               {
+                  "datetime":"2018-05-09 04:28:22",
+                  "netstakeweight":"165049349512528"
+               },
+               {
+                  "datetime":"2018-05-09 04:30:24",
+                  "netstakeweight":"165049349512528"
+               },
+               {
+                  "datetime":"2018-05-09 04:32:26",
+                  "netstakeweight":"165049349512528"
+               },
+               {
+                  "datetime":"2018-05-09 04:34:28",
+                  "netstakeweight":"157700853511901"
+               },
+               {
+                  "datetime":"2018-05-09 04:36:30",
+                  "netstakeweight":"158043673919061"
+               },
+               {
+                  "datetime":"2018-05-09 04:38:31",
+                  "netstakeweight":"156091729646664"
+               },
+               {
+                  "datetime":"2018-05-09 04:40:33",
+                  "netstakeweight":"153375956920626"
+               },
+               {
+                  "datetime":"2018-05-09 04:42:35",
+                  "netstakeweight":"151552717871157"
+               },
+               {
+                  "datetime":"2018-05-09 04:44:37",
+                  "netstakeweight":"151552717871157"
+               },
+               {
+                  "datetime":"2018-05-09 04:46:39",
+                  "netstakeweight":"151278067997891"
+               },
+               {
+                  "datetime":"2018-05-09 04:48:41",
+                  "netstakeweight":"151340379143915"
+               },
+               {
+                  "datetime":"2018-05-09 04:50:42",
+                  "netstakeweight":"147154719361330"
+               },
+               {
+                  "datetime":"2018-05-09 04:52:44",
+                  "netstakeweight":"146044769700117"
+               },
+               {
+                  "datetime":"2018-05-09 04:54:46",
+                  "netstakeweight":"142250673655490"
+               },
+               {
+                  "datetime":"2018-05-09 04:56:48",
+                  "netstakeweight":"147012058982254"
+               },
+               {
+                  "datetime":"2018-05-09 04:58:50",
+                  "netstakeweight":"147012058982254"
+               },
+               {
+                  "datetime":"2018-05-09 05:00:52",
+                  "netstakeweight":"147012058982254"
+               },
+               {
+                  "datetime":"2018-05-09 05:02:53",
+                  "netstakeweight":"143971345892636"
+               },
+               {
+                  "datetime":"2018-05-09 05:04:55",
+                  "netstakeweight":"138619373673705"
+               },
+               {
+                  "datetime":"2018-05-09 05:06:57",
+                  "netstakeweight":"154754506555468"
+               },
+               {
+                  "datetime":"2018-05-09 05:08:59",
+                  "netstakeweight":"159641818634345"
+               },
+               {
+                  "datetime":"2018-05-09 05:11:01",
+                  "netstakeweight":"159641818634345"
+               },
+               {
+                  "datetime":"2018-05-09 05:13:02",
+                  "netstakeweight":"159641818634345"
+               },
+               {
+                  "datetime":"2018-05-09 05:15:04",
+                  "netstakeweight":"156983021499699"
+               },
+               {
+                  "datetime":"2018-05-09 05:17:06",
+                  "netstakeweight":"156983021499699"
+               },
+               {
+                  "datetime":"2018-05-09 05:19:08",
+                  "netstakeweight":"154853431471679"
+               },
+               {
+                  "datetime":"2018-05-09 05:21:10",
+                  "netstakeweight":"157534425121960"
+               },
+               {
+                  "datetime":"2018-05-09 05:23:12",
+                  "netstakeweight":"157877094153349"
+               },
+               {
+                  "datetime":"2018-05-09 05:25:13",
+                  "netstakeweight":"157911519040821"
+               },
+               {
+                  "datetime":"2018-05-09 05:27:15",
+                  "netstakeweight":"152264150787907"
+               },
+               {
+                  "datetime":"2018-05-09 05:29:17",
+                  "netstakeweight":"149683165714165"
+               },
+               {
+                  "datetime":"2018-05-09 05:31:19",
+                  "netstakeweight":"149683165714165"
+               },
+               {
+                  "datetime":"2018-05-09 05:33:21",
+                  "netstakeweight":"148935866497175"
+               },
+               {
+                  "datetime":"2018-05-09 05:35:22",
+                  "netstakeweight":"149597252677100"
+               },
+               {
+                  "datetime":"2018-05-09 05:37:24",
+                  "netstakeweight":"145335599459048"
+               },
+               {
+                  "datetime":"2018-05-09 05:39:26",
+                  "netstakeweight":"145335599459048"
+               },
+               {
+                  "datetime":"2018-05-09 05:41:28",
+                  "netstakeweight":"147621230799300"
+               },
+               {
+                  "datetime":"2018-05-09 05:43:30",
+                  "netstakeweight":"146651035461067"
+               },
+               {
+                  "datetime":"2018-05-09 05:45:32",
+                  "netstakeweight":"146058784589581"
+               },
+               {
+                  "datetime":"2018-05-09 05:47:33",
+                  "netstakeweight":"148374295192892"
+               },
+               {
+                  "datetime":"2018-05-09 05:49:35",
+                  "netstakeweight":"148374295192892"
+               },
+               {
+                  "datetime":"2018-05-09 05:51:37",
+                  "netstakeweight":"148374295192892"
+               },
+               {
+                  "datetime":"2018-05-09 05:53:39",
+                  "netstakeweight":"148374295192892"
+               },
+               {
+                  "datetime":"2018-05-09 05:55:41",
+                  "netstakeweight":"148374295192892"
+               },
+               {
+                  "datetime":"2018-05-09 05:57:42",
+                  "netstakeweight":"137706268960819"
+               },
+               {
+                  "datetime":"2018-05-09 05:59:44",
+                  "netstakeweight":"137415561132718"
+               },
+               {
+                  "datetime":"2018-05-09 06:01:46",
+                  "netstakeweight":"132522881454597"
+               },
+               {
+                  "datetime":"2018-05-09 06:03:48",
+                  "netstakeweight":"136561461931183"
+               },
+               {
+                  "datetime":"2018-05-09 06:05:50",
+                  "netstakeweight":"137408367746435"
+               },
+               {
+                  "datetime":"2018-05-09 06:07:52",
+                  "netstakeweight":"137408367746435"
+               },
+               {
+                  "datetime":"2018-05-09 06:09:53",
+                  "netstakeweight":"134298765535147"
+               },
+               {
+                  "datetime":"2018-05-09 06:11:55",
+                  "netstakeweight":"131441020879596"
+               },
+               {
+                  "datetime":"2018-05-09 06:13:57",
+                  "netstakeweight":"137597403044964"
+               },
+               {
+                  "datetime":"2018-05-09 06:15:59",
+                  "netstakeweight":"137597403044964"
+               },
+               {
+                  "datetime":"2018-05-09 06:18:01",
+                  "netstakeweight":"134312283559565"
+               },
+               {
+                  "datetime":"2018-05-09 06:20:02",
+                  "netstakeweight":"134565104236806"
+               },
+               {
+                  "datetime":"2018-05-09 06:22:04",
+                  "netstakeweight":"133756804148793"
+               },
+               {
+                  "datetime":"2018-05-09 06:24:06",
+                  "netstakeweight":"136678576799669"
+               },
+               {
+                  "datetime":"2018-05-09 06:26:08",
+                  "netstakeweight":"136920918531551"
+               },
+               {
+                  "datetime":"2018-05-09 06:28:10",
+                  "netstakeweight":"136920918531551"
+               },
+               {
+                  "datetime":"2018-05-09 06:30:12",
+                  "netstakeweight":"134605972304542"
+               },
+               {
+                  "datetime":"2018-05-09 06:32:13",
+                  "netstakeweight":"134605972304542"
+               },
+               {
+                  "datetime":"2018-05-09 06:34:15",
+                  "netstakeweight":"132658101865316"
+               },
+               {
+                  "datetime":"2018-05-09 06:36:17",
+                  "netstakeweight":"132162327881868"
+               },
+               {
+                  "datetime":"2018-05-09 06:38:19",
+                  "netstakeweight":"132162327881868"
+               },
+               {
+                  "datetime":"2018-05-09 06:40:21",
+                  "netstakeweight":"127026041394439"
+               },
+               {
+                  "datetime":"2018-05-09 06:42:22",
+                  "netstakeweight":"128605293701748"
+               },
+               {
+                  "datetime":"2018-05-09 06:44:24",
+                  "netstakeweight":"130096123762069"
+               },
+               {
+                  "datetime":"2018-05-09 06:46:26",
+                  "netstakeweight":"125328393726831"
+               },
+               {
+                  "datetime":"2018-05-09 06:48:28",
+                  "netstakeweight":"118420837074829"
+               },
+               {
+                  "datetime":"2018-05-09 06:50:30",
+                  "netstakeweight":"112980285592252"
+               },
+               {
+                  "datetime":"2018-05-09 06:52:32",
+                  "netstakeweight":"113593168122642"
+               },
+               {
+                  "datetime":"2018-05-09 06:54:33",
+                  "netstakeweight":"113593168122642"
+               },
+               {
+                  "datetime":"2018-05-09 06:56:35",
+                  "netstakeweight":"113593168122642"
+               },
+               {
+                  "datetime":"2018-05-09 06:58:37",
+                  "netstakeweight":"114475663450734"
+               },
+               {
+                  "datetime":"2018-05-09 07:00:39",
+                  "netstakeweight":"113667736004761"
+               },
+               {
+                  "datetime":"2018-05-09 07:02:41",
+                  "netstakeweight":"116498930625607"
+               },
+               {
+                  "datetime":"2018-05-09 07:04:42",
+                  "netstakeweight":"118186867710051"
+               },
+               {
+                  "datetime":"2018-05-09 07:06:44",
+                  "netstakeweight":"120534863222873"
+               },
+               {
+                  "datetime":"2018-05-09 07:08:46",
+                  "netstakeweight":"120534863222873"
+               },
+               {
+                  "datetime":"2018-05-09 07:10:48",
+                  "netstakeweight":"120534863222873"
+               },
+               {
+                  "datetime":"2018-05-09 07:12:50",
+                  "netstakeweight":"115314166578852"
+               },
+               {
+                  "datetime":"2018-05-09 07:14:51",
+                  "netstakeweight":"109887917403355"
+               },
+               {
+                  "datetime":"2018-05-09 07:16:53",
+                  "netstakeweight":"108419837761645"
+               },
+               {
+                  "datetime":"2018-05-09 07:18:55",
+                  "netstakeweight":"106721486480052"
+               },
+               {
+                  "datetime":"2018-05-09 07:20:57",
+                  "netstakeweight":"106721486480052"
+               },
+               {
+                  "datetime":"2018-05-09 07:22:59",
+                  "netstakeweight":"104612429438746"
+               },
+               {
+                  "datetime":"2018-05-09 07:25:01",
+                  "netstakeweight":"121429817660578"
+               },
+               {
+                  "datetime":"2018-05-09 07:27:02",
+                  "netstakeweight":"128574513572327"
+               },
+               {
+                  "datetime":"2018-05-09 07:29:04",
+                  "netstakeweight":"132355830880772"
+               },
+               {
+                  "datetime":"2018-05-09 07:31:06",
+                  "netstakeweight":"134743263255416"
+               },
+               {
+                  "datetime":"2018-05-09 07:33:08",
+                  "netstakeweight":"134743263255416"
+               },
+               {
+                  "datetime":"2018-05-09 07:35:10",
+                  "netstakeweight":"136133840143850"
+               },
+               {
+                  "datetime":"2018-05-09 07:37:11",
+                  "netstakeweight":"136074313073140"
+               },
+               {
+                  "datetime":"2018-05-09 07:39:13",
+                  "netstakeweight":"136363542661917"
+               },
+               {
+                  "datetime":"2018-05-09 07:41:15",
+                  "netstakeweight":"136110937943373"
+               },
+               {
+                  "datetime":"2018-05-09 07:43:17",
+                  "netstakeweight":"137290917021467"
+               },
+               {
+                  "datetime":"2018-05-09 07:45:19",
+                  "netstakeweight":"137500425280925"
+               },
+               {
+                  "datetime":"2018-05-09 07:47:21",
+                  "netstakeweight":"139351330447468"
+               },
+               {
+                  "datetime":"2018-05-09 07:49:22",
+                  "netstakeweight":"142497800598713"
+               },
+               {
+                  "datetime":"2018-05-09 07:51:24",
+                  "netstakeweight":"141802679317660"
+               },
+               {
+                  "datetime":"2018-05-09 07:53:26",
+                  "netstakeweight":"146934834058019"
+               },
+               {
+                  "datetime":"2018-05-09 07:55:28",
+                  "netstakeweight":"146934834058019"
+               },
+               {
+                  "datetime":"2018-05-09 07:57:30",
+                  "netstakeweight":"146934834058019"
+               },
+               {
+                  "datetime":"2018-05-09 07:59:32",
+                  "netstakeweight":"142485335036326"
+               },
+               {
+                  "datetime":"2018-05-09 08:01:33",
+                  "netstakeweight":"153513872240474"
+               },
+               {
+                  "datetime":"2018-05-09 08:03:35",
+                  "netstakeweight":"153513872240474"
+               },
+               {
+                  "datetime":"2018-05-09 08:05:37",
+                  "netstakeweight":"153513872240474"
+               },
+               {
+                  "datetime":"2018-05-09 08:07:39",
+                  "netstakeweight":"153513872240474"
+               },
+               {
+                  "datetime":"2018-05-09 08:09:41",
+                  "netstakeweight":"153513872240474"
+               },
+               {
+                  "datetime":"2018-05-09 08:11:42",
+                  "netstakeweight":"153513872240474"
+               },
+               {
+                  "datetime":"2018-05-09 08:13:44",
+                  "netstakeweight":"143786397289884"
+               },
+               {
+                  "datetime":"2018-05-09 08:15:46",
+                  "netstakeweight":"142445282109985"
+               },
+               {
+                  "datetime":"2018-05-09 08:17:48",
+                  "netstakeweight":"143114089828650"
+               },
+               {
+                  "datetime":"2018-05-09 08:19:50",
+                  "netstakeweight":"143757433027716"
+               },
+               {
+                  "datetime":"2018-05-09 08:21:52",
+                  "netstakeweight":"143757433027716"
+               },
+               {
+                  "datetime":"2018-05-09 08:23:53",
+                  "netstakeweight":"143491606118217"
+               },
+               {
+                  "datetime":"2018-05-09 08:25:55",
+                  "netstakeweight":"145711140888657"
+               },
+               {
+                  "datetime":"2018-05-09 08:27:57",
+                  "netstakeweight":"145432079997675"
+               },
+               {
+                  "datetime":"2018-05-09 08:29:59",
+                  "netstakeweight":"143225978434694"
+               },
+               {
+                  "datetime":"2018-05-09 08:32:01",
+                  "netstakeweight":"141576336359984"
+               },
+               {
+                  "datetime":"2018-05-09 08:34:02",
+                  "netstakeweight":"139970465817745"
+               },
+               {
+                  "datetime":"2018-05-09 08:36:04",
+                  "netstakeweight":"141022690961284"
+               },
+               {
+                  "datetime":"2018-05-09 08:38:06",
+                  "netstakeweight":"141022690961284"
+               },
+               {
+                  "datetime":"2018-05-09 08:40:08",
+                  "netstakeweight":"138224805066836"
+               },
+               {
+                  "datetime":"2018-05-09 08:42:10",
+                  "netstakeweight":"138224805066836"
+               },
+               {
+                  "datetime":"2018-05-09 08:44:12",
+                  "netstakeweight":"132957570176719"
+               },
+               {
+                  "datetime":"2018-05-09 08:46:13",
+                  "netstakeweight":"135503085367789"
+               },
+               {
+                  "datetime":"2018-05-09 08:48:15",
+                  "netstakeweight":"135503085367789"
+               },
+               {
+                  "datetime":"2018-05-09 08:50:17",
+                  "netstakeweight":"132599070458110"
+               },
+               {
+                  "datetime":"2018-05-09 08:52:19",
+                  "netstakeweight":"136867064369289"
+               },
+               {
+                  "datetime":"2018-05-09 08:54:21",
+                  "netstakeweight":"139643144436089"
+               },
+               {
+                  "datetime":"2018-05-09 08:56:22",
+                  "netstakeweight":"140510018599804"
+               },
+               {
+                  "datetime":"2018-05-09 08:58:24",
+                  "netstakeweight":"148281945784485"
+               },
+               {
+                  "datetime":"2018-05-09 09:00:26",
+                  "netstakeweight":"148281945784485"
+               },
+               {
+                  "datetime":"2018-05-09 09:02:28",
+                  "netstakeweight":"148281945784485"
+               },
+               {
+                  "datetime":"2018-05-09 09:04:30",
+                  "netstakeweight":"148281945784485"
+               },
+               {
+                  "datetime":"2018-05-09 09:06:32",
+                  "netstakeweight":"142815294735313"
+               },
+               {
+                  "datetime":"2018-05-09 09:08:33",
+                  "netstakeweight":"146659768840210"
+               },
+               {
+                  "datetime":"2018-05-09 09:10:35",
+                  "netstakeweight":"146659768840210"
+               },
+               {
+                  "datetime":"2018-05-09 09:12:37",
+                  "netstakeweight":"146659768840210"
+               },
+               {
+                  "datetime":"2018-05-09 09:14:39",
+                  "netstakeweight":"146659768840210"
+               },
+               {
+                  "datetime":"2018-05-09 09:16:41",
+                  "netstakeweight":"146659768840210"
+               },
+               {
+                  "datetime":"2018-05-09 09:18:42",
+                  "netstakeweight":"140089040890841"
+               },
+               {
+                  "datetime":"2018-05-09 09:20:44",
+                  "netstakeweight":"138495309667392"
+               },
+               {
+                  "datetime":"2018-05-09 09:22:46",
+                  "netstakeweight":"136846323667371"
+               },
+               {
+                  "datetime":"2018-05-09 09:24:48",
+                  "netstakeweight":"136846323667371"
+               },
+               {
+                  "datetime":"2018-05-09 09:26:50",
+                  "netstakeweight":"128508325732478"
+               },
+               {
+                  "datetime":"2018-05-09 09:28:52",
+                  "netstakeweight":"123919280935234"
+               },
+               {
+                  "datetime":"2018-05-09 09:30:53",
+                  "netstakeweight":"122932737701374"
+               },
+               {
+                  "datetime":"2018-05-09 09:32:55",
+                  "netstakeweight":"124785344127356"
+               },
+               {
+                  "datetime":"2018-05-09 09:34:57",
+                  "netstakeweight":"124785344127356"
+               },
+               {
+                  "datetime":"2018-05-09 09:36:59",
+                  "netstakeweight":"124785344127356"
+               },
+               {
+                  "datetime":"2018-05-09 09:39:01",
+                  "netstakeweight":"122165753163031"
+               },
+               {
+                  "datetime":"2018-05-09 09:41:02",
+                  "netstakeweight":"121168433841776"
+               },
+               {
+                  "datetime":"2018-05-09 09:43:04",
+                  "netstakeweight":"120124395416699"
+               },
+               {
+                  "datetime":"2018-05-09 09:45:06",
+                  "netstakeweight":"119514024203460"
+               },
+               {
+                  "datetime":"2018-05-09 09:47:08",
+                  "netstakeweight":"120302996838542"
+               },
+               {
+                  "datetime":"2018-05-09 09:49:10",
+                  "netstakeweight":"124268382908294"
+               },
+               {
+                  "datetime":"2018-05-09 09:51:11",
+                  "netstakeweight":"124268382908294"
+               },
+               {
+                  "datetime":"2018-05-09 09:53:13",
+                  "netstakeweight":"135471970890018"
+               },
+               {
+                  "datetime":"2018-05-09 09:55:15",
+                  "netstakeweight":"142989850150275"
+               },
+               {
+                  "datetime":"2018-05-09 09:57:17",
+                  "netstakeweight":"144438480253917"
+               },
+               {
+                  "datetime":"2018-05-09 09:59:19",
+                  "netstakeweight":"144438480253917"
+               },
+               {
+                  "datetime":"2018-05-09 10:01:21",
+                  "netstakeweight":"138679080420234"
+               },
+               {
+                  "datetime":"2018-05-09 10:03:22",
+                  "netstakeweight":"148997413603601"
+               },
+               {
+                  "datetime":"2018-05-09 10:05:24",
+                  "netstakeweight":"148997413603601"
+               },
+               {
+                  "datetime":"2018-05-09 10:07:26",
+                  "netstakeweight":"148997413603601"
+               },
+               {
+                  "datetime":"2018-05-09 10:09:28",
+                  "netstakeweight":"149227886095580"
+               },
+               {
+                  "datetime":"2018-05-09 10:11:30",
+                  "netstakeweight":"153602975985271"
+               },
+               {
+                  "datetime":"2018-05-09 10:13:31",
+                  "netstakeweight":"157716577263261"
+               },
+               {
+                  "datetime":"2018-05-09 10:15:33",
+                  "netstakeweight":"159649585181549"
+               },
+               {
+                  "datetime":"2018-05-09 10:17:35",
+                  "netstakeweight":"159649585181549"
+               },
+               {
+                  "datetime":"2018-05-09 10:19:37",
+                  "netstakeweight":"159649585181549"
+               },
+               {
+                  "datetime":"2018-05-09 10:21:39",
+                  "netstakeweight":"156911424255011"
+               },
+               {
+                  "datetime":"2018-05-09 10:23:40",
+                  "netstakeweight":"163954692329606"
+               },
+               {
+                  "datetime":"2018-05-09 10:25:42",
+                  "netstakeweight":"163954692329606"
+               },
+               {
+                  "datetime":"2018-05-09 10:27:44",
+                  "netstakeweight":"163954692329606"
+               }
+            ]
+         },
+         "Rover":{
+            "lastprice":"0.000005349186",
+            "btcvol":"0.239584236390"
+         },
+         "Earnzcoin":{
+            "lastprice":"0.000000831950",
+            "btcvol":"0.014561121600"
+         },
+         "Bitcoinessence":{
+            "lastprice":"0.000000010000",
+            "btcvol":"0.000157930000"
+         },
+         "Viog":{
+            "lastprice":"0.000005000000",
+            "btcvol":"0.000063500000"
+         }
+      },
+      "fiatData":{
+         "fiatList":{
+            "USD":"United States Dollar",
+            "TRY":"Turkish Lira",
+            "CAD":"Canadian Dollar",
+            "IDR":"Indonesian Rupiah",
+            "RON":"Romanian Leu",
+            "GBP":"Pound Sterling",
+            "ZAR":"South African Rand",
+            "SEK":"Swedish krona",
+            "DKK":"Danish Krone",
+            "HRK":"Croatian Kuna",
+            "CHF":"Swiss Franc",
+            "BGN":"Bulgarian Lev",
+            "MYR":"Malaysian Ringgit",
+            "CNY":"Chinese Yuan",
+            "AUD":"Australian Dollar",
+            "NZD":"New Zealand Dollar",
+            "PLN":"Polish Zloty",
+            "ILS":"Israeli Shekel",
+            "KRW":"South Korean Won",
+            "PHP":"Philippine Piso",
+            "EUR":"Euro",
+            "THB":"Thai Baht",
+            "JPY":"Japanese Yen",
+            "CZK":"Czech Koruna ",
+            "SGD":"Singapore Dollar",
+            "HKD":"Hong Kong Dollar",
+            "RUB":"Russian Ruble",
+            "ISK":"Icelandic Krona",
+            "INR":"Indian Rupee",
+            "MXN":"Mexican Peso",
+            "HUF":"Hungarian Forint",
+            "NOK":"Norwegian Krone",
+            "BRL":"Brazilian Real"
+         },
+         "fiatBalances":{
+            "USD":9297.7463,
+            "TRY":39780.40754455,
+            "CAD":11974.56745977,
+            "IDR":130819290.441,
+            "RON":36355.11780763,
+            "GBP":6844.349983819,
+            "ZAR":116900.5642299,
+            "SEK":80986.15959689,
+            "DKK":58308.02659656,
+            "HRK":57822.6842397,
+            "CHF":9309.83337019,
+            "BGN":15307.80950832,
+            "MYR":37046.87013235,
+            "CNY":59194.10181895,
+            "AUD":12462.69914052,
+            "NZD":13302.28563141,
+            "PLN":33387.27718867,
+            "ILS":33390.06651256,
+            "KRW":10015532.31436,
+            "PHP":482878.4540905,
+            "EUR":7827.028790266,
+            "THB":298039.2576465,
+            "JPY":1019404.904332,
+            "CZK":200087.500376,
+            "SGD":12461.76936589,
+            "HKD":72985.44890574,
+            "RUB":586390.2636484,
+            "ISK":958039.778752,
+            "INR":625385.0116306,
+            "MXN":181622.1762242,
+            "HUF":2466413.161001,
+            "NOK":75175.06815939,
+            "BRL":33226.42617768
+         }
+      }
+   }
+}
